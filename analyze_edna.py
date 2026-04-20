@@ -207,6 +207,19 @@ SAMPLE_COLS = [
     'CNR7WZYJ.1', 'CDWD42KP.1', 'CA66THTZ.1', 'C4SUMTFY.1', '4JKGTSJ5.1'
 ]
 
+# Sample location labels  (name → display title with city/state)
+SAMPLE_LOCATIONS = {
+    'CY92PPTX.1': 'West Branch Narraguagus\nDeblois, ME',
+    'CVVU52A9.1': 'Upper Sawmill\nManchester, MA',
+    'CSWEE3DX.1': 'McCoy Brook\nDeblois, ME',
+    'CNTLVPX4.1': 'Crotch Camp Creek\nDeblois, ME',
+    'CNR7WZYJ.1': 'UNT Lane Rd\nDeblois, ME',
+    'CDWD42KP.1': 'Below School St\nDeblois, ME',
+    'CA66THTZ.1': 'Narraguagus Rt 193\nDeblois, ME',
+    'C4SUMTFY.1': 'Lower Golf Course / Sawmill\nManchester, MA',
+    '4JKGTSJ5.1': 'Ducktrap River\nLincoln, ME',
+}
+
 # Colour palette for up to ~30 groups (tab20 + tab20b)
 _cm1 = matplotlib.colormaps.get_cmap('tab20').resampled(20)
 _cm2 = matplotlib.colormaps.get_cmap('tab20b').resampled(20)
@@ -318,7 +331,8 @@ def plot_pie_grid(grouped, out_path):
             startangle=90,
             pctdistance=0.8,
         )
-        ax.set_title(sample, fontsize=10, fontweight='bold')
+        title = SAMPLE_LOCATIONS.get(sample, sample)
+        ax.set_title(title, fontsize=9, fontweight='bold', linespacing=1.4)
 
     # Hide unused axes
     for idx in range(n_samples, len(axes)):
