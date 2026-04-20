@@ -208,8 +208,8 @@ SAMPLE_COLS = [
 ]
 
 # Colour palette for up to ~30 groups (tab20 + tab20b)
-_cm1 = plt.cm.get_cmap('tab20', 20)
-_cm2 = plt.cm.get_cmap('tab20b', 20)
+_cm1 = matplotlib.colormaps.get_cmap('tab20').resampled(20)
+_cm2 = matplotlib.colormaps.get_cmap('tab20b').resampled(20)
 PALETTE = [_cm1(i) for i in range(20)] + [_cm2(i) for i in range(20)]
 
 
@@ -273,6 +273,7 @@ def plot_stacked_bar(grouped, out_path):
     ax.set_ylabel('Relative Abundance (%)', fontsize=12)
     ax.set_xlabel('Sample', fontsize=12)
     ax.set_title('eDNA Community Composition — Normalized Stacked Bar Chart\n(23S rRNA gene amplicon data)', fontsize=13)
+    ax.set_xticks(range(len(SAMPLE_COLS)))
     ax.set_xticklabels(SAMPLE_COLS, rotation=30, ha='right', fontsize=9)
     ax.yaxis.grid(True, linestyle='--', alpha=0.5)
     ax.set_axisbelow(True)
