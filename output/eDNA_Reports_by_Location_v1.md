@@ -1,0 +1,2488 @@
+# eDNA Ecological Reports — New England Freshwater & Coastal Monitoring
+## Abstract
+
+Environmental DNA (eDNA) metabarcoding results from ten sample batches (JVB3759–JVB5776) collected across coastal Maine and Massachusetts between November 2023 and August 2025. Samples were analyzed using MiFish 12S rRNA (fish vertebrates), 23S rRNA (photosynthetic microalgae, select batches), and targeted Brook Trout quantitative PCR (qPCR, inconclusive). Results are organized by watershed and location — not by batch number — to enable longitudinal comparison across time points at the same site.
+
+**Key findings:** Atlantic Salmon (*Salmo salar*, Gulf of Maine Distinct Population Segment) confirmed at Northern Stream and Richardson Stream in the East Machias watershed and at Union River Bridge — federally endangered; reported to NOAA Fisheries and Maine DMR. Northern Pike (*Esox lucius*) confirmed at Second Pond, Manchester-by-the-Sea — illegal stocking; reported to MA DFW. Potential harmful algal bloom (HAB) flag at Ellsworth Dam face (61.7% Cyanobacteria, September 2024). Herring-run masking of Brook Trout eDNA signal documented at Mashpee River (June vs. August comparison). **Brook Trout not detected at any of the six most recent batches (JVB3988–JVB5403).** Sixteen-species marine assemblage at Proctor Point Dock, Manchester — richest single-sample community in the dataset.
+
+---
+
+# Table of Contents
+**Front Matter**
+- Abstract
+- Introduction
+- How to Read This Document
+- Sentinel Species Reference
+
+**Field Reports by Location**
+
+**1. Maine — Narraguagus Watershed** — Deblois, ME · November 2023
+
+   - McCoy Brook · Nov 2023
+   - Crotch Camp Brook · Nov 2023
+   - UNT Lane Rd · Nov 2023
+   - West Branch Narraguagus @ Sprague's Falls · Nov 2023
+   - Narraguagus Rt 193 · Nov 2023
+
+**2. Maine — Union River & Ellsworth Dam** — Ellsworth, ME · July 2024 — May 2025
+
+   - Ellsworth Dam, Union River · Jul 2024
+   - 100 m Above Ellsworth Dam · Sep 2024
+   - Ellsworth Dam face · Sep 2024
+   - Rooster Bros, Rt 1, Ellsworth · Sep 2024
+   - Union River Bridge · May 2025
+   - Union River Rooster Bros (peak run) · May 21, 2025
+   - Union River Rooster Brothers · May 31, 2025
+   - Union River Rooster Bros — 3-Syringe Method Comparison · May 31, 2025
+
+**3. Maine — East Machias / Washington County** — East Machias, ME · October 2024 — August 2025
+
+   - East Machias Rt 9 · Oct 2024
+   - Northern Stream · Oct 2024 ⚑ Atlantic Salmon confirmed
+   - Northern Outlet · Oct 2024
+   - Richardson Stream · Oct 2024 ⚑ Atlantic Salmon confirmed
+   - Beaver Dam Stream · Oct 2024
+   - Northern Inlet · Jul 2025
+   - East Machias Rt 9 · Jul 2025 (repeat)
+   - Gardner Lake (50-ft Meatball) · Aug 2025
+   - Machias River Above Falls · Sep 2024
+
+**4. Maine — Orange River (Temporal Monitoring)** — Orange, ME · March — June 2025
+
+   - Orange River · Mar 14, 2025 (ice-out)
+   - Orange River / High Head Rd · Mar 28, 2025
+   - Orange River "Orange Bucket" · Apr 21, 2025
+   - Orange River · May 7, 2025
+   - Orange River · May 14, 2025 (black fly season)
+   - Orange River · Jun 18, 2025 (low water)
+
+**5. MBTS / Manchester-by-the-Sea, MA — Sawmill Brook** — Manchester-by-the-Sea, MA · November 2023 — June 2025
+
+   - Upper Sawmill Brook · Nov 2023
+   - Below School St · Nov 2023
+   - Lower Golf Course / Sawmill Brook · Nov 2023
+   - Sawmill Swamp · Aug 2024
+   - Sawmill Brook — Below School St · Aug 2024
+   - Sawmill Brook — Fire Station · Aug 2024
+   - Sawmill Brook / School St · Mar 2025 (no reads — winter)
+   - Second Pond MBTS · Oct 2024 ⚑ Northern Pike confirmed
+   - Sawmill Brook Elm Street · Mar 2025 (no reads — winter)
+   - MBTS #3 · Apr 2025
+   - Sawmill Brook — Atwater Site · Jun 2025
+
+**6. South Shore, MA — Third Herring Brook & Cohasset** — Norwell / Hanover / Cohasset, MA · August–September 2024
+
+   - Third Herring Brook (THB) — Norwell/Hanover · Aug 2024
+   - Cohasset Narrows Bridge · Sep 2024
+
+**7. Cape Cod, MA — Cold-Water Stream Monitoring** — Various, MA · August 2024 — June 2025
+
+   - Mashpee River · Aug 2024
+   - Fresh Brook, Route 6 (Low Tide) · Aug 2024
+   - Fresh Brook Impoundment · Aug 2024
+   - Santuit River · Aug 2024
+   - Quashnet River · Aug 2024
+   - Orleans SW · Aug 2024
+   - Red Brook Road Pool (Low Tide) · Sep 2024
+   - Cat Brook / Forest Landing · Oct 2024
+   - Lower Rd., Brewster · Sep 2024
+   - Mashpee River · Jun 2025 (herring run — compare Aug 2024)
+   - Below Lincoln Pool / Bournedale · Jun 2025
+   - Fresh Brook Area — Water near Fecal Deposit (QC entry) · 2024
+
+**8. Saltwater / Marine — Open Coast Monitoring** — Manchester-by-the-Sea, MA · June 2025
+
+   - Proctor Point Dock, Manchester-by-the-Sea · Jun 2025
+
+**Appendix: Cross-Batch Brook Trout & Atlantic Salmon Summary**
+
+---
+
+# Introduction
+
+## What eDNA Metabarcoding Does — and Doesn't — Tell Us
+
+Environmental DNA (eDNA) metabarcoding amplifies short, standardized genetic marker sequences from water samples and matches them to reference databases. The MiFish 12S rRNA marker targets fish vertebrates; the 23S rRNA marker targets photosynthetic microalgae. Results are expressed as relative read proportions — the fraction of identified genetic reads belonging to each species — not as counts, biomass, or population estimates. eDNA detects species *presence*; it cannot distinguish life history form (sea-run vs. resident Brook Trout), ecotype, age class, or residency. A single fish passing through a reach can leave detectable eDNA.
+
+Relative read proportions are influenced by shedding rate, water temperature, flow, sample volume, and the composition of the co-occurring community. When a dominant species (e.g., Alewife during the spring herring run) constitutes 80–90% of reads, minority species may fall below detection thresholds even if present in the water — a phenomenon documented here as **herring-run masking** at Mashpee River.
+
+## Why We Do This Work
+
+This work is funded by and for trout fishermen. Brook Trout (*Salvelinus fontinalis*) is the primary sentinel species — the canary-in-the-coal-mine for cold, clean, well-oxygenated water. Brook Trout require dissolved oxygen above 7 mg/L, summer water temperatures below 20°C, and stable, permeable gravel substrate for spawning. Where Brook Trout persist, the entire cold-water food web is likely intact. Where they have disappeared, the water has warmed, the chemistry has shifted, or the physical habitat has been altered.
+
+Every site narrative in this document interprets the fish and algal community first through the lens of: *what does this signal mean for Brook Trout and Brook Trout habitat?* When Brook Trout is absent, we say so explicitly. When the absence may be methodological (seasonal masking, mainstem vs. headwater sampling, insufficient eDNA shedding in cold water), we say that too.
+
+Brown Trout (*Salmo trutta*) and Rainbow Trout (*Oncorhynchus mykiss*) are non-native and stocked in New England. They are detected but not celebrated.
+
+## How This Document Is Organized
+
+Earlier reports organized results by batch number (JVB3988, JVB4678, etc.), corresponding to laboratory submission order. This document reorganizes the same data by watershed and location, so that multiple visits to the same site appear together — enabling year-over-year and season-over-season comparison. Eight location buckets are defined below.
+
+**Algal (23S rRNA) data are available for four of ten batches** (JVB3759, JVB3787, JVB4307, JVB5776). Where present, the algal community provides independent inference of water temperature, pH, dissolved oxygen, and nutrient status that substantially deepens ecological interpretation. Additional 23S data are pending for priority sites and will be added to this document.
+
+**Standing rules applied throughout:**
+- Fish community percentages are re-normalized to fish-only reads (non-aquatic vertebrates excluded)
+- H_f = fish Shannon diversity (−Σ p·ln p); H_a = algal Shannon diversity where available
+- No claim of life history form, ecotype, or residency from eDNA alone
+- No sea-run or anadromous-life-history claims from eDNA detection
+- Ducktrap River, ME (sample 4JKGTSJ5) is tracked separately from all multi-batch analyses
+
+---
+
+# How to Read This Document
+
+Each site report follows a standard structure:
+
+**Sentinel Signal** — one paragraph distilling the single most important biological message from the eDNA data. Written for a non-specialist reader. This is the lede.
+
+**Inferred Water Chemistry** (where algal data available) — a table of water quality parameters inferred from the algal community, with the specific indicator taxa driving each inference.
+
+**Fish Community** (or **Algal Community**) — a table of detected species with relative read percentages, notes, and Brook Trout / Atlantic Salmon status explicitly stated.
+
+**Narrative** — the full ecological interpretation: what the community composition means, what the dominant species signal, what is conspicuously absent, how the site compares to others in the dataset.
+
+**Native vs. Non-Native** — explicit accounting of non-native and stocked species.
+
+---
+
+# Sentinel Species Reference
+
+## Diadromous Species — Ocean-Watershed Bridge
+
+**Alewife (*Alosa pseudoharengus*)** — native anadromous herring; spring upstream spawning run; presence confirms ocean-river connectivity.
+
+**Blueback Herring (*Alosa aestivalis*)** — native anadromous; fall run; similar connectivity signal.
+
+**American Eel (*Anguilla rostrata*)** — native catadromous; ocean-river connectivity from the other direction; present in nearly all connected systems.
+
+**Atlantic Salmon (*Salmo salar*, Gulf of Maine DPS)** — federally endangered; detection in a natal tributary during fall = spawning-run fish. **Report immediately to NOAA Fisheries (Greater Atlantic Regional Fisheries Office) and Maine DMR.**
+
+**Rainbow Smelt (*Osmerus mordax*)** — native anadromous; early-spring spawner; cold-water indicator.
+
+**Sea Lamprey (*Petromyzon marinus*)** — native; parasitic on large fish but ecologically important; presence confirms large-river connectivity.
+
+## Brook Trout Habitat Indicators
+
+**Fallfish (*Semotilus corporalis*)** — largest native minnow in the Northeast; requires clean gravel substrate; positive water quality indicator.
+
+**Creek Chub (*Semotilus atromaculatus*)** — tolerates more marginal conditions than Fallfish; presence without Fallfish suggests moderate impairment.
+
+**Tessellated Darter (*Etheostoma olmstedi*)** — clean, well-oxygenated substrate specialist; positive indicator wherever it appears.
+
+**Finescale Dace (*Chrosomus neogaeus*)** — cold, soft-water specialist; Brook Trout associate in northern Maine headwaters.
+
+## Species Requiring Reporting
+
+**Northern Pike (*Esox lucius*)** — illegal stocking in Massachusetts. Detection in MA waters requires report to MA Division of Fisheries & Wildlife.
+
+**Atlantic Salmon** — see above.
+
+## Non-Native / Stocked — Detected but Not Celebrated
+
+**Brown Trout (*Salmo trutta*)** — hatchery stocked; European origin; does not indicate wild cold-water quality.
+
+**Rainbow Trout (*Oncorhynchus mykiss*)** — hatchery stocked; Pacific origin.
+
+**Largemouth Bass, Smallmouth Bass, Rock Bass (*Micropterus, Ambloplites*)** — widely introduced; tolerant of warm, degraded conditions; negative indicator for Brook Trout habitat quality.
+
+---
+
+# 1. Maine — Narraguagus Watershed
+
+**Deblois, ME · November 2023**
+
+*Assay: Fish (MiFish 12S) + Algae (23S rRNA)*
+
+The Narraguagus River drains the remote forests of Washington County, Maine — one of the least-developed watersheds in the northeastern United States. This cluster of five sites captures the upper and middle reaches of the West Branch and its tributaries, sampled in November 2023 at leaf-off when eDNA from other taxa is minimal and the fish signal is clearest. The Narraguagus is part of federally designated critical habitat for the Gulf of Maine Distinct Population Segment (DPS) of Atlantic Salmon, and it supports wild Brook Trout in its cold headwater tributaries. All five sites carry both fish (MiFish 12S) and algal (23S rRNA) data — the most complete ecological dataset in the study. Algal community composition provides independent inference of water temperature, pH, dissolved oxygen, and nutrient status, substantially deepening the ecological interpretation beyond fish alone.
+
+**Brook Trout status: Detected.** **Atlantic Salmon status: Not detected in this batch.**
+
+---
+
+## McCoy Brook | CSWEE3DX.1
+
+**Fish: 1 species, H<sub>f</sub> = 0.00 | Algae: 91 ESVs, H<sub>a</sub> = 3.28 | Recorded pH: 3.54**
+
+### Sentinel Signal
+Creek Chub alone + Eunotia/Pinnularia Pennate Diatoms + Euglena = **three-line acid impairment signal**. Each indicator independently points to the same conclusion.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 3.54 (measured) | Direct measurement |
+| Calcium | <2 mg/L | Acid mobilization depletes Ca²⁺ |
+| Conductivity | <30 μS/cm | Low ionic strength, acid system |
+| Total phosphorus | Low | Acid systems retain P in sediment |
+| Dissolved aluminum | Elevated | Mobilized from soils by acid pH |
+| Dissolved organic carbon | Moderate–high | Peatland and forest drainage |
+
+### Narrative
+At pH 3.54, the water is more acidic than black coffee. Fish gills cannot regulate ions across such a gradient. Most freshwater fish experience acute physiological stress below pH 5.0 and lethal conditions below pH 4.5. pH 3.54 is well below both thresholds.
+
+The fish community confirms it: only Creek Chub detected, at 100% relative abundance. Creek Chub are among the most acid-tolerant freshwater fish in the Northeast — a native species with wide physiological tolerance — yet even their signal is singular. No salmonids, no dace, no sucker. These are all native Maine brook fish that should occupy this habitat type; their complete absence is the impairment signal.
+
+The algae tell the same story independently. Pennate diatoms dominate (35.4%) — genera like *Eunotia* and *Pinnularia* are classic acid-indicator taxa, well-documented as preferring pH below 6. Carteria green alga (17.4%) and *Chlamydomonas nivalis* (5.9%) are acid-tolerant flagellates that persist where most phytoplankton cannot compete. Euglena (3.5%) — an organic-enrichment tolerant and low-pH survivor — rounds out what ecologists call the acid-specialist guild. This is the community that remains after acidic filtering has removed more sensitive taxa.
+
+That H<sub>a</sub> = 3.28 still registers meaningful algal diversity reflects the higher physiological tolerance of algae compared to vertebrates. At pH 3.54, algae survived the filter that eliminated the fish.
+
+### Native vs. Non-Native
+Creek Chub (*Semotilus atromaculatus*) is fully native to Maine. Its sole presence is not a stocking artifact — it is a natural acid-tolerance winner in a chemically hostile environment. All the absent species (Brook Trout, Blacknose Dace, White Sucker) are also native; their absence is the impairment story.
+
+**The source of impairment at McCoy Brook is identified: Worcester Peat Mining.**
+
+An active industrial peat extraction operation upstream — Worcester Peat Mining — has been operating for well over a decade and is the primary anthropogenic driver of the pH 3.54 condition documented here. This is not a speculative attribution. Peat mining directly exposes and destabilizes deep peat deposits, releasing sulfuric compounds, organic acids (fulvic and humic acid), and iron-sulfide oxidation products into drainage water. When disturbed peat is exposed to oxygen, pyrite (FeS₂) within the peat oxidizes to sulfuric acid — a process that continues for years and is extremely difficult to arrest once initiated. The resulting drainage is strongly acidic, metal-laden, and persistent.
+
+The scale and duration of the operation — significant, pervasive, and active for more than a decade — means this is not a transitional or reversible condition under current management. The biological community at McCoy Brook reflects chronic, ongoing chemical impairment from an identified point-adjacent source, not background natural peat acidity or recoverable atmospheric acid deposition legacy.
+
+**This distinction matters enormously for restoration.** A stream impaired by legacy acid rain soil depletion can recover passively over decades as acid deposition declines and soils slowly recharge. A stream receiving active drainage from an operating peat mining operation cannot recover until the source is managed or remediated. The Creek Chub at McCoy Brook is not holding a position that will be reclaimed by Brook Trout and Blacknose Dace on its own — it is occupying a stream that is being continuously re-impaired by upstream industrial activity.
+
+The acid rain context remains relevant as a background amplifier: Washington County's granite-bedrock soils have low natural buffering capacity, and decades of mid-20th century acid deposition further depleted their base-cation reserves (calcium, magnesium). This means even moderate peat mining drainage — which might be partially buffered in a limestone-watershed stream — passes through McCoy Brook's watershed with minimal attenuation, reaching the stream at near-raw acidity. The two stressors compound each other. But Worcester Peat Mining is the active, manageable driver. It is the appropriate focus of any remediation or regulatory response.
+
+---
+
+---
+
+## Crotch Camp Brook | CNTLVPX4.1
+
+**Fish: 9 species, H<sub>f</sub> = 1.69 | Algae: 76 ESVs, H<sub>a</sub> = 2.30**
+
+### Sentinel Signal
+Synura at 74% dominance + Trout sp. present = **phosphorus-limited oligotrophic soft-water system, not impaired but at the nutrient floor**. The Synura says dissolved phosphorus is near or below 10 μg/L and the water is clean and lean; the trout says it is still livable.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 5.5–7.0 | Synura optimal range |
+| Conductivity | <30 μS/cm | Synurophyte dominance indicates very low ionic strength |
+| Total phosphorus | <10 μg/L | Synura outcompetes under P-limitation |
+| Calcium | <5 mg/L | Soft water, granite/peat geology |
+| Dissolved organic carbon | Moderate–high | Peatland drainage, humic tint |
+| Dissolved oxygen | Good | Trout presence confirms aerobic conditions |
+
+### Narrative
+The algal signal is the most ecologically diagnostic in the Maine dataset: *Synura* (Colonial Synurophyte) accounts for 74.4% of all algal reads. Synurophytes are golden-brown flagellates that thrive in soft, slightly acidic water, low conductivity, and very low phosphorus. Their mass dominance here does not indicate impairment — it indicates a system at the extreme low end of phosphorus and nitrogen availability. Synurophytes are competitively dominant specifically when total dissolved phosphorus (TP) is below approximately 10 μg/L and dissolved inorganic nitrogen (DIN) is below 0.1–0.2 mg/L — concentrations too low to sustain fast-growing green algae or diatoms. The water is probably clear but humic-tinted, with conductivity near the detection limit of most field meters. H<sub>a</sub> = 2.30 is second-lowest in the dataset, not because conditions are toxic, but because *Synura* has outcompeted everything else in this phosphorus- and nitrogen-starved niche.
+
+The fish community is moderate and ecologically coherent for this habitat type: Ninespine Stickleback (35.2%), Creek Chub (25.0%), Trout sp. (16.9%), Redbreast Sunfish (9.9%). Trout presence is the key signal — salmonids require cool, well-oxygenated, clean water. Their detection here confirms the system is not lethal; it is simply lean. H<sub>f</sub> = 1.69 with 9 species is consistent with a small, phosphorus-limited woodland brook: when TP is at or below 10 μg/L, algal growth is slow, invertebrate biomass is low, and the fish community supported above it is correspondingly modest in size and diversity.
+
+### Native vs. Non-Native
+All detected fish are native to Maine. Finescale Dace and Ninespine Stickleback, though not detected here at high abundance, are native soft-water specialists. The Trout sp. signal likely reflects wild Brook Trout (*Salvelinus fontinalis*) — Maine's native salmonid — rather than stocked fish, given the remote, soft-water character of the site.
+
+Combined: Crotch Camp Brook is not impaired. It is at the productive floor of what Maine geology naturally allows. The trout are there; they are just working hard for relatively little food.
+
+---
+
+---
+
+## UNT Lane Rd | CNR7WZYJ.1
+
+**Fish: 1 species, H<sub>f</sub> = 0.00 | Algae: 77 ESVs, H<sub>a</sub> = 3.16**
+
+### Sentinel Signal
+American Eel alone + diverse soft-water algal community = **connectivity present, fish community ambiguous — barrier or seasonality likely, not acute impairment**. The algae do not support a toxicity interpretation.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 5.5–7.0 | Cryptophyte + Chromulina assemblage |
+| Conductivity | 20–50 μS/cm | Halamphora coffeaeformis suggests slight enrichment or low ionic influence |
+| Total phosphorus | Low–moderate | Chromulina and cryptophyte mix |
+| Dissolved organic carbon | Moderate | Humic indicators present |
+| Dissolved oxygen | Adequate | Eel survives, no anoxia signal |
+
+### Narrative
+American Eel at 100% relative abundance — a single fish taxon across all reads. This result demands careful interpretation before concluding impairment.
+
+American Eel (*Anguilla rostrata*) are catadromous: born in the Sargasso Sea, they spend their adult lives in freshwater before returning to the ocean to spawn. They are fully native, highly persistent, and a single large resident eel can shed eDNA that dominates a sample. The absence of other fish may reflect low fish density at a headwater tributary, November post-season timing when many species are less active, or a physical barrier limiting upstream access.
+
+The algal community does not support toxicity. Cryptophytes (20.5%), Pennate Diatoms (22.1%), *Halamphora coffeaeformis* (14.9%), and Chromulina (8%) form a diverse soft-water assemblage. *Halamphora coffeaeformis* is notable — it is found in slightly enriched or occasionally oligohaline conditions, which may hint at some tidal or groundwater influence even this far upstream. H<sub>a</sub> = 3.16 with 77 ESVs is consistent with a functioning brook, not a chemically stressed one.
+
+### Native vs. Non-Native
+American Eel is fully native. Its catadromous life history makes it one of the most far-ranging native vertebrates in the northeastern freshwater landscape. Its presence confirms ocean connectivity to this reach.
+
+This site reads as habitat-limited or seasonally undersampled rather than impaired — but the single-species fish result demands follow-up sampling in warmer months when a richer community would be active.
+
+---
+
+---
+
+## West Branch Narraguagus River @ Sprague's Falls | CY92PPTX.1
+
+**Fish: 14 species, H<sub>f</sub> = 1.94 | Algae: 201 ESVs, H<sub>a</sub> = 4.55 (highest in dataset)**
+
+### Sentinel Signal
+Finescale Dace + Trout sp. + Sea Lamprey + diverse diatom matrix = **multi-line reference condition signal**. Each indicator independently confirms high-quality, connected, soft-water habitat functioning at full ecological complexity.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 5.5–6.5 | Native soft-water fish guild; diverse diatoms |
+| Conductivity | 30–60 μS/cm | Moderate — above Crotch Camp but soft |
+| Total phosphorus | Low–moderate | Diverse but not cyanobacteria-dominated algae |
+| Calcium | 3–8 mg/L | Soft, but adequate for dace and salmonids |
+| Dissolved oxygen | High | Trout, Sea Lamprey, Finescale Dace all require high DO |
+| Turbidity | Low | Diverse diatom community; no turbidity-tolerant taxa dominating |
+
+### Narrative
+This is the reference condition for the watershed — the benchmark against which the other Maine sites should be read.
+
+The algal community is the most diverse in the entire dataset: 201 distinct ESVs, H<sub>a</sub> = 4.55. This is not driven by a single dominant group but by a broad, even distribution across taxa — Halamphora diatom (11%), Pennate Diatoms (8.7%), Araphid Diatoms (8%), Monomastix (7.7%), Synurophytes (4.4%), and many more. A diverse, evenly distributed algal matrix indicates physical and chemical heterogeneity: riffles, pools, varying light, stable moderate nutrients, intact riparian cover. This is a complex, functioning aquatic ecosystem.
+
+The fish community reflects that complexity: 14 species, H<sub>f</sub> = 1.94. Redbreast Sunfish (30.8%), a benthic omnivore requiring clean stable substrate. White Sucker (19.6%), a tolerant generalist indicating a system large enough to support body-mass fish. Ninespine Stickleback (10.2%) and Finescale Dace (7.3%), both characteristic of high-quality, slightly acidic, cool Maine streams. Sea Lamprey (0.3%) and Trout sp. (1.9%) confirm the site has ecological connectivity and thermal refugia.
+
+Finescale Dace (*Chrosomus neogaeus*) deserve particular emphasis — they are considered sentinel indicators of pristine, soft-water habitat in Maine, strongly associated with wild Brook Trout streams. Their presence here is a quality endorsement independent of all other indicators.
+
+### Native vs. Non-Native
+All 14 detected fish species are native to Maine and to the Narraguagus watershed. Sea Lamprey, though often maligned for its role in the Great Lakes (where it is invasive), is fully native to the Atlantic coast of North America and an ecologically integral part of the Narraguagus system. Its detection confirms functioning migratory connectivity.
+
+West Branch Narraguagus is what a healthy Maine woodland stream looks like. This is the ceiling — not an idealized target but an actually observed condition.
+
+---
+
+---
+
+## Narraguagus Rt 193 | CA66THTZ.1
+
+**Fish: 19 species, H<sub>f</sub> = 2.16 (highest in ME) | Algae: 117 ESVs, H<sub>a</sub> = 3.86**
+
+### Sentinel Signal
+Alewife + Atlantic Salmon + Sea Lamprey + Fallfish = **four-line anadromous hub signal**: ocean connectivity confirmed, clean gravel confirmed, federally listed species present, marine nutrient subsidy active. The Cyanobacteria (6.5%) = **early nutrient enrichment watch flag** — not alarming, but noted.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 6.0–7.0 | Mainstem; cryptophyte + centric diatom assemblage |
+| Conductivity | 40–80 μS/cm | Higher than tributaries; anadromous nutrient inputs |
+| Total phosphorus | Low–moderate, trending up | Cyanobacteria at 6.5% = early enrichment signal |
+| Calcium | 5–12 mg/L | Adequate for full fish guild; Fallfish nest-building |
+| Dissolved oxygen | High | Atlantic Salmon, Fallfish both require high DO |
+| Marine-derived nutrients | Present | Alewife, Salmon, Lamprey decomposition subsidies |
+
+### Narrative
+This is the ecological hub of the Maine dataset — the most diverse fish community, the strongest anadromous signal, and the connecting node between the Gulf of Maine and the interior watershed.
+
+The fish community tells the story immediately. Alewife (26.3%) is the dominant taxon — ocean fish that ascend rivers in spring to spawn. Their eDNA in November reflects residual signal from the spring migration or from juveniles still present. Either way, this is direct evidence of open corridor to the Gulf of Maine. Fallfish (22.2%) — the largest native minnow in the Northeast — require clean, gravel-bottomed streams for their distinctive large nest mounds. A strong Fallfish signal is a meaningful water quality indicator independent of any chemical measurement.
+
+Atlantic Salmon (0.3%) and Sea Lamprey (0.3%) complete the anadromous sentinel suite. Trace levels, but ecologically significant: the Narraguagus supports one of the few remaining wild Atlantic Salmon populations in the United States, a federally endangered stock. Detection here is not incidental — it is confirmation that this stretch of river is part of an active salmon watershed.
+
+The supporting cast — Redbreast Sunfish (12.7%), White Sucker (8.5%), Shiner sp. (5.1%), Pickerel/Pike sp. (3.6%), 19 species total — reflects a complete, multi-guild community from benthic feeders to apex predators. H<sub>f</sub> = 2.16 is the highest fish Shannon index in the Maine dataset.
+
+The algae show a functional but different community from West Branch: Cryptophytes dominate (24.3%), indicating humic, moderately productive water. Centric Diatoms (10.7%) signal nutrient and silica availability appropriate for a mainstem or lower-gradient reach. Cyanobacteria at 6.5% — at this level, they are not alarming, but they are a flag. Cyanobacteria are favored by elevated nitrogen and phosphorus; their appearance here may reflect marine-derived nutrient subsidy from decomposing anadromous fish, which is natural and cyclical, but warrants monitoring to distinguish natural subsidies from anthropogenic enrichment.
+
+### Native vs. Non-Native
+All 19 fish species are native to their respective ecological roles in this watershed. Alewife, Atlantic Salmon, Sea Lamprey, and American Eel are all native anadromous or catadromous species with evolutionary relationships to this river system. There is no detectable non-native fish signal in the Maine dataset.
+
+Narraguagus Rt 193 is functioning as a mainstem ecosystem hub. It is the healthiest and most connected site in the Maine sample.
+
+---
+
+---
+
+## Maine Summary
+
+
+| Site | Fish spp. | H<sub>f</sub> | Algae ESVs | H<sub>a</sub> | Key Sentinel Complex | Status |
+|---|---|---|---|---|---|---|
+| Narraguagus Rt 193 | 19 | 2.16 | 117 | 3.86 | Alewife + Atlantic Salmon + Fallfish | **Healthy — anadromous hub** |
+| West Branch Narraguagus | 14 | 1.94 | 201 | 4.55 | Finescale Dace + Sea Lamprey + diverse diatoms | **Healthy — reference condition** |
+| Crotch Camp Brook | 9 | 1.69 | 76 | 2.30 | Synura 74% + Trout sp. | Functional — phosphorus-limited oligotrophic floor |
+| UNT Lane Rd | 1 | 0.00 | 77 | 3.16 | Eel only + adequate algae | Ambiguous — resample needed |
+| McCoy Brook | 1 | 0.00 | 91 | 3.28 | Creek Chub + Eunotia + Euglena | **Impaired — pH 3.54 — Worcester Peat Mining** |
+
+The Maine gradient runs from active impairment (McCoy Brook, pH 3.54) through oligotrophic soft-water limitation (Crotch Camp Brook) to full ecological function with anadromous connectivity (Narraguagus Rt 193, West Branch). Acidification is the primary stressor. All detected fish are native. Where chemistry is adequate and ocean connectivity is intact, the system assembles a complete, multi-guild native fish community on a complex algal foundation.
+
+---
+
+---
+
+---
+
+# 2. Maine — Union River & Ellsworth Dam
+
+**Ellsworth, ME · July 2024 — May 2025**
+
+*Assay: Fish (MiFish 12S) + Algae (23S rRNA, Jul–Sep 2024) · Fish only (May 2025)*
+
+The Union River at Ellsworth Dam is the most intensively sampled location in this study — eight samples spanning nearly a year, from the early fall algal bloom period through the peak spring Alewife run. The Ellsworth Dam is a critical chokepoint for anadromous fish moving between the tidal Union River estuary and upstream freshwater habitat. Fish aggregating below the dam during the upstream spawning migration produce a highly concentrated eDNA signal. Whether upstream fish movement reflects self-passage or a trap-and-truck assist operation is a key interpretive question that eDNA alone cannot resolve.
+
+Early samples (July–September 2024) carry both fish and algal panel data. Spring 2025 samples are fish-only. The 61.7% Cyanobacteria reading at the Ellsworth Dam face in September 2024 — a **potential harmful algal bloom (HAB) flag** — is one of the most ecologically significant algal detections in the entire dataset.
+
+**Brook Trout status: Detected (Crotch Camp Brook, upstream).**
+**Atlantic Salmon status: Detected (0.5% at Union River Bridge, May 2025 — Gulf of Maine DPS; report to NOAA Fisheries and Maine DMR).**
+
+---
+
+## Ellsworth Dam, Union River | D8F0GB5R.1 | July 2024
+
+
+**Fish:** H<sub>f</sub> = 1.64 · 17 species | **Algae:** H<sub>a</sub> = 3.71 · 3,790 reads
+
+### Sentinel Signal
+
+Alewife 39.7% + Striped Bass 10.4% = the marine-freshwater energy transfer made visible. An apex marine predator has followed its prey 100+ km up a coastal Maine river to the dam pool in July. Cyanobacteria 33% = warm impounded conditions; dam structural effect. **Brook Trout: Absent** — dam pool conditions incompatible with salmonids in midsummer.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm, stratified | Cyanobacteria + midsummer impoundment |
+| pH | 6.5–7.5 (circumneutral) | Anadromous fish tolerance + *Halamphora* indicator |
+| Conductivity | Elevated | Dam concentration effect + *Halamphora coffeaeformis* (brackish-tolerant diatom) |
+| Phosphorus | Elevated (pulse) | Active Alewife run delivering marine-origin P |
+| Calcium | Moderate | *Halamphora* presence consistent with some mineral enrichment; soft-water Synurophytes (Mallomonas 4.2%) indicate Maine background |
+| Marine-derived nutrients | Active | Alewife run present |
+| Brook Trout habitat suitability | Not at this site in July | Dam pool thermal conditions; cold tributaries upstream |
+
+### Narrative
+
+The Ellsworth Dam pool in July 2024 is a site of extraordinary anadromous fish activity. Alewife at 39.7% is the dominant signal — this is the spring run in extended residence. Alewife (*Alosa pseudoharengus*) ascend the Union River each spring to spawn; their July eDNA reflects juveniles still in the system and residual DNA from spawning adults. This is the marine nutrient pump in action: each Alewife that dies after spawning delivers marine-derived phosphorus, nitrogen, and carbon into a freshwater system that would otherwise be phosphorus-limited. The elevated phosphorus signature in July is the predictable consequence of a productive spring run.
+
+Striped Bass at 10.4% is a striking finding. Striped Bass are marine apex predators that ascend coastal rivers to follow baitfish runs. Their eDNA at the dam pool confirms they are penetrating deep into the Union River system — almost certainly following the Alewife. A Striped Bass at the dam face is not an ecological coincidence; it is a predator tracking its prey. At the dam, this aggregation creates a compressed interaction: the Alewife stack against the barrier, and the Striped Bass follow. The dam converts what would be a distributed watershed-scale dynamic into a concentrated pinch point.
+
+**No Brook Trout detected.** This is ecologically appropriate. The July dam pool is warm, impounded, and dominated by anadromous and warm-water species. Brook Trout require cold water — typically below 18°C — and the summer stratified conditions of a dam pool in July are inhospitable to salmonids at that location. If Brook Trout exist in the Union River watershed, they are upstream in cold tributary headwaters, not in the dam pool in July. The dam pool is not their habitat.
+
+The algal signal confirms the warm impounded character: Cyanobacteria at 33%, led by Synechococcus and Cyanobium picoplankton. *Halamphora coffeaeformis* at 13% (a brackish-tolerant diatom) reflects ionic enrichment of the dam pool — concentrated solutes and legacy saline sediment influence. *Mallomonas* (4.2%, Synurophyte) provides the counterpoint: the upstream water column retains soft-water Maine character even as the dam pool concentrates solutes. Cyanobacteria at 33% does not yet indicate active bloom conditions, but it is the structural fingerprint of an impounded warm summer pool. At 61–62% in September at this same site (see JVB4307), the trajectory is clear.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Cyanobacteria | 33.4% |
+| Cryptophytes | 21.5% |
+| Diatoms | 19.4% |
+| Synurophytes | 8.9% |
+| Unresolved | 7.2% |
+| Green Algae (marine picoeuk.) | 4.9% |
+| Chrysophytes | 1.8% |
+| Dictyochophytes | 1.2% |
+
+*Top taxa: Halamphora coffeaeformis 13.1% · Cryptophyceae (unresolved) 13.0% · Synechococcus sp. CBW1004 5.1% · Mallomonas 4.2% · Cyanobium 3.3%*
+
+### Native vs. Non-Native
+
+| Species | Status | Note |
+|---|---|---|
+| Alewife, Blueback Herring, American Eel | Native | Anadromous/catadromous — confirm open migratory corridor |
+| Striped Bass | Native | Anadromous apex predator; following Alewife run |
+| Redbreast Sunfish, White Sucker, White Perch, Yellow Perch, Fallfish | Native | Resident freshwater community |
+| *Micropterus* sp. — Bass | Non-native | Largemouth or Smallmouth Bass; stocked/introduced in most of Maine |
+| Brook Trout | Absent | Expected given dam pool conditions; cold-water tributaries upstream are the target |
+
+---
+
+---
+
+## 100 m Above Ellsworth Dam — ME | SUJI1BGP.1 | Sep 17, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.54 · 15 species | **Algae:** H<sub>a</sub> = 4.56 · 38,803 reads
+
+### Sentinel Signal
+
+Alewife 35.6% above the dam in September — confirmed above the barrier, reached by trap-and-truck. Sunfish 40% + Bass 10% = warm impounded pool in the reach above. **Brook Trout: Absent** — dam pool conditions. Cyanobacteria 55%.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm, stratified | Cyanobacteria 55% + warm-water fish community |
+| Cyanobacteria trajectory | Increasing | 33% in July (JVB3759) → 55% above dam in September |
+| Brook Trout habitat | Not at this site | Warm impounded pool |
+
+### Narrative
+
+Alewife at 35.6% above the dam in September. This confirms Alewife are present in the reach above the Ellsworth Dam. **However, confirmation is needed on the mechanism: if there is no functional fishway and the operation is trap-and-truck, these Alewife were transported past the barrier by human intervention, not self-passage.** If so, the finding documents the success of a trap-and-truck stocking program, which is ecologically meaningful but different from a self-sustaining migratory run. Please confirm whether a functional fishway (fish ladder or bypass channel) exists or whether the above-dam Alewife presence depends on trap-and-truck.
+
+Tomcod (*Microgadus tomcod*, 0.2%) and Atlantic Herring (0.4%) above a dam are unexpected. Atlantic Tomcod undertake fall spawning runs into freshwater rivers (typically November–January in New England); a September signal suggests early-run individuals. Atlantic Herring above a dam is more puzzling — their presence could reflect: (1) early-season movement, (2) contamination from cormorant or osprey predation and defecation above the dam, or (3) a false positive. This merits QC attention.
+
+The Cyanobacteria signal (55%, Synechococcus dominant) persists from July (33%) through September. This is the structural community shift imposed by the dam: impounded warm water selects for Cyanobacteria over diatoms and green algae. It is not a seasonal artifact — it is the dam's effect on the water column. H<sub>a</sub> = 4.56 indicates the wider algal community has not yet collapsed despite Cyanobacteria dominance.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Cyanobacteria | 54.8% |
+| Vascular plant eDNA | 9.1% |
+| Unresolved | 7.8% |
+| Cryptophytes | 7.1% |
+| Diatoms | 5.3% |
+| Dictyochophytes | 3.2% |
+| Green Algae (marine picoeuk.) | 3.1% |
+| Chrysophytes | 2.6% |
+| Synurophytes | 2.1% |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Alewife, American Eel, Tomcod | Native |
+| Redbreast Sunfish, White Sucker, White Perch, Yellow Perch, Pickerel, Fallfish | Native |
+| *Micropterus* sp. — Bass | Non-native |
+
+---
+
+---
+
+## Ellsworth Dam — ME | HJ7HM41U.1 | Sep 17, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.03 · 11 species | **Algae:** H<sub>a</sub> = 4.52 · 38,873 reads
+
+### Sentinel Signal
+
+Alewife 71.8% at the dam face = the fall run stacking against the barrier. Cyanobacteria 61.7% = **HAB risk flag** — this is the highest Cyanobacteria percentage in the Ellsworth corridor. Striped Bass 1.8% = apex predator following the Alewife concentration. **Brook Trout: Absent.**
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm, late-summer stratification | Cyanobacteria 62% — highest in corridor |
+| HAB risk | Elevated | Cyanobacteria 62%; nighttime anoxia possible |
+| Brook Trout habitat | Not at this site | Dam pool; warm-water community |
+
+### Narrative
+
+Alewife at 71.8% at the dam in September — the fall run is concentrated at the dam face. **This aggregation may be a mortality trap, not a passage success.** If there is no functional fishway, the fish massing below the dam face are staging with nowhere to go; some fraction will be killed passing over the spillway or through turbines. The 81.7% Alewife at the Rooster Bros site immediately below (see next) forms a wall of fish at the Ellsworth Dam barrier. Striped Bass at 1.8% is not coincidental — they are following the Alewife concentration. The dam creates a compressed ecological trap: anadromous fish aggregate at the barrier, and their predators follow.
+
+**Cyanobacteria at 61.7% — HAB risk is elevated.** This is the highest Cyanobacteria percentage across all Ellsworth sites and time points. September dam pool conditions are at their warmest and most stratified, driving maximum Cyanobacteria competitive advantage. Dense Cyanobacteria blooms create nighttime anoxia through the same mechanism noted at Santuit: photosynthesis stops at dark; bacterial respiration of algal biomass continues consuming dissolved oxygen; CO2 increases and pH drops. In a warm, stratified impoundment with 62% Cyanobacteria, dissolved oxygen crashes at night are not theoretical — they are a predictable outcome of the current trajectory. This situation warrants monitoring of dissolved oxygen at dawn.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Cyanobacteria | 61.7% |
+| Cryptophytes | 11.1% |
+| Unresolved | 7.9% |
+| Green Algae (marine picoeuk.) | 6.6% |
+| Synurophytes | 4.0% |
+| Dictyochophytes | 2.5% |
+| Chrysophytes | 1.5% |
+| Eustigmatophytes | 1.1% |
+| Green Algae | 0.8% |
+
+*Top taxa: Cyanophyceae (unresolved) 10.9% · Synechococcus sp. CBW1004 10.1% · Cryptophyceae (unresolved) 3.5% · Monomastix 3.1%*
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Alewife, American Eel, White Sucker, Yellow Perch, Redbreast Sunfish | Native |
+| Striped Bass | Native anadromous |
+| *Micropterus* sp. — Bass | Non-native |
+
+---
+
+---
+
+## Rooster Bros, Rt 1, Ellsworth — ME | KJ4Q9P3R.1 | Sep 17, 2024
+
+
+**Fish:** H<sub>f</sub> = 0.78 · 11 species | **Algae:** H<sub>a</sub> = 4.68 · 36,537 reads
+
+### Sentinel Signal
+
+Alewife 81.7% = highest single-species dominance in the entire JVB4307 dataset. This is the fall run massed at the base of the dam. Fallfish 0.7% = native clean-water endorsement at this reach.
+
+### Narrative
+
+81.7% Alewife at the Rt 1 bridge — the greatest single-species dominance in the entire JVB4307 fish dataset. This bridge site is immediately below the Ellsworth Dam, making it the primary aggregation point where the fall Alewife run concentrates before reaching the barrier. H<sub>f</sub> = 0.78 reflects what an overwhelming single-species signal does to diversity — not impairment but ecological concentration at a bottleneck.
+
+Fallfish (*Semotilus corporalis*, 0.7%) is a native minnow — the largest minnow in the Northeast — that requires clean, gravel-bottomed streams for its distinctive large nest mounds. Its presence is a water quality endorsement at this reach, consistent with the Union River's historical reputation as a productive anadromous watershed. Eastern Silvery Minnow (*Hybognathus regius*, 0.4%) is a native cyprinid of moderate- to good-quality riverine habitat — another positive native community indicator.
+
+The algal signal (Cyanobacteria 46.5%, H<sub>a</sub> = 4.68) has the highest diversity in the Ellsworth corridor, consistent with the more riverine, less impounded character of the Rt 1 bridge reach compared to the dam pool itself. *Monomastix* (a tiny green flagellate of clean oligotrophic water) at 2.6% is a persistent signal across all three Ellsworth sites, suggesting the water column retains some low-nutrient character even as dam-effect Cyanobacteria dominate.
+
+**What the dam costs, and what removal would change.** The persistent Cyanobacteria dominance (46–62% across all Ellsworth sites, all time points) is the structural impoundment effect. The dam creates slow, warm, thermally stratified water — conditions that Cyanobacteria exploit through: (1) buoyancy regulation (they can float to the sunlit surface while algae sink), (2) tolerance of low nutrient concentrations at the sediment-water interface, and (3) nitrogen fixation when surface nutrients are depleted. Without the dam, the Union River would return to faster, cooler, better-mixed flow — conditions where Cyanobacteria cannot outcompete diatoms and green algae. Dam removal would predictably shift the algal community from Cyanobacteria-dominated back to diatom- and Synurophyte-dominated: a chemical and biological restoration toward cold-water, low-nutrient character — and toward trout habitat.
+
+### Algal Community (Rooster Bros, Rt 1)
+
+| Group | Rel% |
+|---|---|
+| Cyanobacteria | 46.5% |
+| Cryptophytes | 17.1% |
+| Unresolved | 7.9% |
+| Green Algae (marine picoeuk.) | 6.0% |
+| Synurophytes | 4.9% |
+| Dictyochophytes | 4.0% |
+| Eustigmatophytes | 2.9% |
+| Chrysophytes | 1.9% |
+| Green Algae | 1.1% |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Alewife, American Eel, White Sucker, Yellow Perch, Redbreast Sunfish | Native |
+| Fallfish, Eastern Silvery Minnow | Native clean-water indicators |
+| Striped Bass | Native anadromous |
+| *Micropterus* sp. — Bass | Non-native |
+
+---
+
+---
+
+## The Ellsworth Dam Alewife Story — Cross-Site Synthesis
+
+
+Three Union River sites in September tell a single coherent narrative about the fall Alewife run. Reading from downstream to upstream:
+
+- **Rooster Bros (Rt 1), below the dam:** 81.7% Alewife — the run masses here before the dam
+- **Ellsworth Dam (at dam face):** 71.8% Alewife — concentrated at the barrier
+- **100 m above dam:** 35.6% Alewife — above the barrier (mechanism: trap-and-truck, pending confirmation)
+
+If the Alewife above the dam were transported by trap-and-truck rather than self-passage through a fishway, the finding documents the success of an active translocation program — meaningful conservation, but distinct from a restored self-sustaining run. The ecological story at the dam itself is one of aggregation, mortality risk, and predator concentration, not passage success. The Striped Bass at 1–2% at the dam sites are following the Alewife concentration.
+
+Combined with the July 2024 data (JVB3759: Alewife 39.7% at the dam), the Union River now has two seasonal time points confirming sustained anadromous function: spring/summer Alewife residency in July, fall run aggregation in September. The question of how much of that function reaches the watershed above the dam depends entirely on the passage mechanism.
+
+**Dam removal would convert the mortality trap and translocation program into a self-sustaining run**, restore cool riverine flow conditions, shift the algal community away from Cyanobacteria, and open the watershed to Brook Trout recolonization from cold headwater tributaries. The eDNA data describes the current impounded state; it also implies what restoration would produce.
+
+---
+
+---
+
+## Union River Bridge, ME | ASOMDVAL.1 | May 3, 2025
+
+
+**Fish:** H<sub>f</sub> = 0.63 · 9 species · 50,619 reads
+
+### Sentinel Signal
+
+Alewife 85.8% at the Union River Bridge in early May = **the spring run at near-peak.** **Atlantic Salmon 0.5% confirmed** — joining the Alewife migration corridor. Rainbow Smelt trace = spring smelt run active in the Union River system.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Alosa pseudoharengus* — Alewife | 85.8% | Native anadromous — spring run peak |
+| *Catostomus commersonii* — White Sucker | 4.4% | Native |
+| *Semotilus corporalis* — Fallfish | 4.1% | Native clean-water indicator |
+| *Perca flavescens* — Yellow Perch | 3.0% | Native |
+| *Anguilla rostrata* — American Eel | 1.6% | Native catadromous |
+| ***Salmo salar* — Atlantic Salmon** | **0.5%** | **Native — FEDERALLY ENDANGERED** |
+| *Morone americana* — White Perch | 0.4% | Native |
+| *Micropterus salmoides* — Largemouth Bass | 0.2% | Non-native |
+| *Osmerus mordax* — Rainbow Smelt (trace) | trace | Native anadromous |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+The Union River Bridge in early May is the spring Alewife run in near-full expression — 85.8% of all fish reads are *Alosa pseudoharengus*. This is the annual marine-freshwater nutrient pulse: millions of Alewife ascending the Union River from the ocean, carrying marine phosphorus, nitrogen, and carbon deep into the freshwater system. Every Alewife that spawns and dies releases a packet of marine-origin nutrients into a phosphorus-limited Maine watershed.
+
+**Atlantic Salmon at 0.5%** — while a trace, this is biologically meaningful. In May, Atlantic Salmon adults returning from the ocean are ascending Maine rivers alongside the Alewife run. The Union River / Ellsworth Dam system is a documented Atlantic Salmon watershed; their eDNA at the bridge confirms their presence during the spring migration window, even as the Alewife run overwhelms all other signals.
+
+Fallfish (4.1%) at the bridge in May is a water-quality endorsement of the mainstem community. Rainbow Smelt trace confirms a spring smelt run passing through the Union River in May — these small anadromous fish are an important forage species for both Atlantic Salmon and Striped Bass.
+
+No Brook Trout at the bridge in May — expected. The Union River mainstem in spring is an anadromous highway, not salmonid trout habitat. Brook Trout, if present in the Union River system, are in cold headwater tributaries inaccessible to this sampling point.
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Alewife, White Sucker, Fallfish, Yellow Perch, American Eel, Atlantic Salmon, White Perch, Rainbow Smelt | Native |
+| Largemouth Bass | Non-native/introduced |
+
+---
+
+---
+
+## Union River Rooster Bros — Spring Peak | UYP2KYQ6.1 | May 21, 2025
+
+
+**Fish:** H<sub>f</sub> = 0.17 · 10 species · 50,670 reads
+
+### Sentinel Signal
+
+Alewife 97.2% = **the spring run at maximum intensity.** In late May at Rooster Bros (below Ellsworth Dam), the Alewife run is so concentrated that virtually nothing else is detectable. This is the marine nutrient pulse at its apex.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Alosa pseudoharengus* — Alewife | 97.2% | Native — spring run peak |
+| *Anguilla rostrata* — American Eel | 1.0% | Native catadromous |
+| *Perca flavescens* — Yellow Perch | 0.7% | Native |
+| *Catostomus commersonii* — White Sucker | 0.5% | Native |
+| *Morone americana* — White Perch | 0.3% | Native |
+| Others | <0.2% | Native — trace signals |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+Rooster Bros below Ellsworth Dam on May 21 — 97.2% Alewife. This is the Union River spring run at maximum concentration. Compare with the fall (JVB4307 Sep 2024: 81.7% Alewife) and the bridge (JVB4846 May 3: 85.8% Alewife) — the Rooster Bros site in late May exceeds both, suggesting the run peaks here slightly later than the bridge (earlier in the watershed) and concentrates more intensely below the dam barrier.
+
+H<sub>f</sub> = 0.17 is the lowest Shannon value in the dataset — not impairment but ecological dominance. When 97% of the fish in the water are one species, diversity necessarily collapses. The Eel (1%) and Yellow Perch (0.7%) are visible only as background against the Alewife signal.
+
+---
+
+---
+
+## Union River Rooster Brothers | TYQXSAUN.1 | May 31, 2025
+
+
+**Fish:** H<sub>f</sub> = 0.57 · 8 species · 41,079 reads
+
+Ten days after the 97.2% peak, Alewife has dropped to 87.7% — the run is declining from its maximum. White Sucker (4.8%), Eel (2.6%), Yellow Perch (1.9%), Sunfish (1.6%), Creek Chub (0.8%) are now visible as the Alewife concentration eases. The resident community is re-emerging as the run recedes.
+
+---
+
+---
+
+## Union River Rooster Bros — 3-Syringe Comparison | K0RLUFS0.1 | May 31, 2025
+
+
+**Fish:** H<sub>f</sub> = 0.45 · 10 species · 61,139 reads
+
+Same site and date as TYQXSAUN, filtered using a 3-syringe volume vs. 2-syringe. Result: 90.6% Alewife vs. 87.7% — a modest difference in Alewife proportion (3 percentage points) despite 50% more filtration volume. The higher-volume filter slightly elevated the Alewife signal relative to resident species, suggesting filtration volume can influence the ratio of abundant anadromous reads to resident reads. Worth noting for methodological consistency in future sampling.
+
+*QC note: Lophius americanus (Atlantic Monkfish) at 0.1% in the 3-syringe filter — a deepwater bottom-dwelling marine species with no basis for presence 80+ km up the Union River. Database artifact; exclude.*
+
+---
+
+---
+
+# 3. Maine — East Machias / Washington County
+
+**East Machias, ME · October 2024 — August 2025**
+
+*Assay: Fish (MiFish 12S) only · Brook Trout qPCR inconclusive*
+
+The East Machias watershed drains the coastal lowlands of Washington County — historically among the last refugia for wild Atlantic Salmon in the eastern United States. This bucket covers the East Machias River main stem and its major tributaries, sampled in October 2024, plus Gardner Lake (a headwater impoundment) and repeat East Machias Rt 9 sampling in July–August 2025.
+
+**Atlantic Salmon confirmed at Northern Stream (1.1%) and Richardson Stream (1.7%)** — Gulf of Maine DPS, federally endangered. These are natal tributaries with active spawning-run fish in the fall sampling window. Report to NOAA Fisheries and Maine DMR. A targeted Brook Trout qPCR assay (JVB4683) run on the same water samples returned inconclusive results — not interpretable as confirmed absence.
+
+**Brook Trout status: Not detected at mainstem / lower-reach sites. Cold headwater tributary sampling strongly recommended.**
+**Atlantic Salmon status: Confirmed — two natal tributaries.**
+
+---
+
+## Machias River Above Falls — ME | NVHY6MNK.1 | Sep 12, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.31 · 13 species | **Algae:** H<sub>a</sub> = 4.41 · 39,404 reads
+
+### Sentinel Signal
+
+Pickerel/Pike (*Esox* sp.) 59.4% + Fallfish 14.5% = clean-water riverine community above a natural falls. No Brook Trout or Atlantic Salmon in September — timing and falls barrier explain this. *Mallomonas* 3.5% (Synurophyte) = soft-water, oligotrophic watershed character consistent with a genuine salmonid river.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Cool but not cold in September | Pickerel dominant rather than salmonids above falls |
+| pH | Slightly acidic | *Mallomonas* (soft-water Synurophyte) |
+| Phosphorus | Very low (oligotrophic) | Synurophytes + low Cyanobacteria relative to impounded Ellsworth sites |
+| Water quality | Good — native community | Fallfish clean-water indicator; Eel confirms connectivity |
+| Brook Trout habitat | Present in cold headwater tributaries (not at this site) | Salmonid watershed character; timing issue at mainstem falls |
+
+### Narrative
+
+The Machias River above the falls in September delivers a surprising dominant: Pickerel/Pike (*Esox* sp.) at 59.4%. The Machias is one of the last undammed, free-flowing rivers on the Maine coast — a Federally significant wild Atlantic Salmon watershed — yet at this sampling point in September above the falls, the fish community is *Esox*-dominated rather than salmonid-dominated.
+
+**A note on Esox native status:** Chain Pickerel (*Esox niger*) is native to Maine and is the most likely explanation for the *Esox* signal above the falls. Northern Pike (*Esox lucius*) has been illegally stocked in some Maine waters and competes aggressively with native salmonids. MiFish 12S cannot distinguish these species at genus level — the finding should be noted with that ambiguity. If Northern Pike is present above the falls in the Machias watershed, it is a conservation concern worth investigating with electrofishing.
+
+This requires careful interpretation. The falls are a physical barrier — Alewife, Atlantic Salmon, and Sea Lamprey must ascend to reach this sampling point, and not all individuals will be above the falls in September. The September date is early for the fall Atlantic Salmon return (peak is October–November on the Machias). The Alewife trace (0.1%) suggests some anadromous connectivity exists above the falls but is limited at this sampling point.
+
+Fallfish at 14.5% is the ecological bright spot: clean gravel substrate, good water quality. Eel at 10.8% confirms ocean connectivity penetrates above the falls.
+
+**No Brook Trout or Atlantic Salmon detected** — not alarming given the timing and the nature of this sample point. Brook Trout on the Machias, if present, are likely in cold headwater tributaries away from this mainstem site. The algal community supports this interpretation: *Mallomonas* (Synurophyte, 3.5%) is consistent with the Machias River's granite-bedrock, oligotrophic watershed character — exactly the signal you would expect in a genuine Brook Trout and Atlantic Salmon watershed.
+
+**Algae QC flag — revised:** *Ostreococcus tauri* appears at 11.7% of algal reads. This site is just above the tidal falls, approximately 1 km from tidal water — not 100 km inland as initially noted. At that proximity, marine phytoplankton arriving on tidal exchange during flood tides is **biologically plausible**, not anomalous. The *Ostreococcus* signal may reflect genuine tidal marine influence at this near-tidal sampling point rather than a sequencing artifact. This revises the QC interpretation: low confidence it is index bleed; moderate confidence it is a real marine tidal signal. Flag for monitoring in future samples.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Cyanobacteria | 38.6% |
+| Synurophytes | 13.4% |
+| Unresolved | 11.9% |
+| Green Algae (marine picoeuk. / *Ostreococcus*) | 11.7% |
+| Dictyochophytes | 11.0% |
+| Eustigmatophytes | 5.2% |
+| Chrysophytes | 4.4% |
+| Green Algae | 1.3% |
+| Diatoms | 0.9% |
+
+*Top taxa: Cyanophyceae (unresolved) 9.5% + 8.4% · Mallomonas 3.5% · Pseudopedinella elastica 3.3% · Cyanobium 2.6%*
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| American Eel, White Sucker, Redbreast Sunfish, Fallfish | Native |
+| Alewife (trace) | Native anadromous |
+| *Esox* sp. — Pickerel/Pike | Chain Pickerel is native; Northern Pike is non-native/stocked in some ME waters — cannot distinguish at genus level |
+| *Micropterus* sp. — Bass | Non-native |
+
+---
+
+---
+
+## JVB4307 — Summary
+
+
+| Site | Date | Brook Trout | Key Fish Signal |
+|---|---|---|---|
+| Red Brook Road Pool — MA | Sep 18 | **26.1% — strong** | Fourspine Stickleback + Eel tidal gateway |
+| Cohasset Narrows — MA | Sep 18 | Absent | Marine community (26 marine spp.) |
+| Ellsworth Dam — ME | Sep 17 | Absent | Alewife 71.8% — fall aggregation at dam |
+| Rooster Bros Rt 1 — ME | Sep 17 | Absent | Alewife 81.7% — massed at dam base |
+| 100 m Above Dam — ME | Sep 17 | Absent | Alewife 35.6% — above barrier (trap-and-truck?) |
+| Machias River Above Falls — ME | Sep 12 | Absent | *Esox* 59.4%; Fallfish clean-water indicator |
+| Cat Brook / Forest Landing — MA | Oct 14 | Absent | Warm-water pond; Dictyochophyte QC anomaly |
+
+---
+
+---
+
+## East Machias Rt 9 | ZAGSQ1TX.1 | Late Summer 2024
+
+
+**Fish:** H<sub>f</sub> = 0.53 · 6 species · 17,045 reads
+
+### Sentinel Signal
+
+Blueback Herring 87% = the fall herring run at full flood. Fallfish 7% = clean-water native minnow endorsement at this reach. Eel 4% = ocean connectivity confirmed.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Alosa aestivalis* — Blueback Herring | 87.0% | Native anadromous — fall run |
+| *Semotilus corporalis* — Fallfish | 7.0% | Native clean-water indicator |
+| *Anguilla rostrata* — American Eel | 3.9% | Native catadromous |
+| *Alosa pseudoharengus* — Alewife | 1.7% | Native anadromous |
+| *Notemigonus crysoleucas* — Golden Shiner | 0.2% | Native |
+| **Brook Trout** | **Absent** | |
+| **Atlantic Salmon** | **Absent** | |
+
+*QC flag: Gila orcuttii (California Roach) at 0.3% — a California endemic with no range in Maine. Database artifact; exclude from ecological interpretation.*
+
+### Narrative
+
+Blueback Herring (*Alosa aestivalis*) at 87% is the signature of the fall herring run in full expression on the East Machias system. Blueback Herring are river-spawning herring that ascend coastal rivers in spring (later than Alewife), and their fall eDNA signal reflects juveniles and late-season adults descending toward the ocean after the spawning season. This site, on the main stem of the East Machias or its immediate tributary at Rt 9, is a river-run bottleneck where the fall herring movement concentrates.
+
+Fallfish at 7% and Alewife at 1.7% round out the anadromous community. Fallfish (*Semotilus corporalis*) — the largest native minnow in the Northeast — requires clean gravel substrate for its nest mounds and is a consistently positive water quality indicator wherever it appears.
+
+No Brook Trout or Atlantic Salmon at this site. The October mainstem community is dominated by the fall herring run; salmonids returning to spawn are typically moving through lower-reach sites like this quickly en route to headwater tributaries. The absence is not informative for headwater Brook Trout status. Compare with JVB5403 (July 2025, same site): Blueback Herring again dominant at 50.6%, confirming this is a site of sustained anadromous activity across seasons.
+
+### Native vs. Non-Native
+
+All detected fish species are native to the East Machias watershed.
+
+---
+
+---
+
+## Northern Stream | VD2H2Z3Q.1 | Late Summer / Early Fall 2024
+
+
+**Fish:** H<sub>f</sub> = 0.48 · 6 species · 11,556 reads
+
+### Sentinel Signal
+
+Fallfish 89.5% = clean, stable, gravel-bottom headwater stream. **Atlantic Salmon 1.1% = spawning-run salmon confirmed in a small Maine tributary.** This is a conservation-significant finding.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Semotilus corporalis* — Fallfish | 89.5% | Native — headwater quality indicator |
+| *Catostomus commersonii* — White Sucker | 4.9% | Native |
+| *Semotilus atromaculatus* — Creek Chub | 1.7% | Native headwater minnow |
+| *Rhinichthys atratulus* — Blacknose Dace | 1.5% | Native cold headwater indicator |
+| *Anguilla rostrata* — American Eel | 1.3% | Native catadromous |
+| ***Salmo salar* — Atlantic Salmon** | **1.1%** | **Native anadromous — FEDERALLY ENDANGERED** |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+Northern Stream in fall delivers a headwater stream community of exceptional quality and one conservation-critical finding: **Atlantic Salmon (*Salmo salar*) at 1.1%** — a federally endangered species confirmed by eDNA in a small Maine coastal tributary.
+
+Fallfish at 89.5% is the dominant signal — this is the headwater community at its simplest and cleanest. Fallfish require clean, gravel-bottomed streams with stable flow to construct their large, distinctive nest mounds; they are among the most reliable single-species indicators of intact headwater stream function in the Northeast. Creek Chub (*Semotilus atromaculatus*) and Blacknose Dace (*Rhinichthys atratulus*) are companions of Fallfish in the cleanest small New England streams — both species are sensitive to siltation, low dissolved oxygen, and acidification. This is a community assembled by clean, cold, well-oxygenated water over many years.
+
+Into this community, Atlantic Salmon registers at 1.1%. In October on a Maine coastal stream, 1.1% Salmon reads is a spawning-run signal — fish moving from the ocean into natal tributaries for fall spawning. The Gulf of Maine DPS of Atlantic Salmon is federally listed as Endangered; every confirmed natal tributary is significant. **Northern Stream should be flagged as an Atlantic Salmon spawning tributary for immediate reporting to NOAA Fisheries and Maine DMR.**
+
+No Brook Trout detected — not unexpected for the main stem of Northern Stream in October when the Atlantic Salmon run is moving through. Cold headwater tributaries above this sampling point are the likely Brook Trout habitat; a spring or winter resample in upper reaches would be informative.
+
+### Native vs. Non-Native
+
+All detected species are native to Maine coastal streams.
+
+---
+
+---
+
+## Northern Outlet | O5S2DTMM.1 | Late Summer / Early Fall 2024
+
+
+**Fish:** H<sub>f</sub> = 1.07 · 3 species · 2,280 reads
+
+### Sentinel Signal
+
+Eel 43% + White Sucker 32% + Fallfish 24% = the outlet reach of the Northern Stream system — Eel confirms ocean connectivity downstream, Fallfish confirms water quality upstream.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Anguilla rostrata* — American Eel | 43.2% | Native catadromous |
+| *Catostomus commersonii* — White Sucker | 32.4% | Native |
+| *Semotilus corporalis* — Fallfish | 24.4% | Native clean-water indicator |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+Northern Outlet is the lower, more accessible reach of the Northern Stream system where the stream approaches tidal water. American Eel at 43% is the dominant species here — Eels penetrate the furthest inland of any diadromous fish and dominate outlet reaches where gradual from freshwater to tidal begins. White Sucker (32%) and Fallfish (24%) maintain the clean-water native community signature seen in the Northern Stream sample above.
+
+The H<sub>f</sub> = 1.07 with only 3 species reflects a transition zone rather than impairment — the outlet reach of a small Maine stream in October concentrates a few core species while most of the fish community is upstream.
+
+No Brook Trout detected at the outlet. The community here is consistent with a healthy, connected stream system with intact ocean-watershed linkage.
+
+### Native vs. Non-Native
+
+All detected species are native.
+
+---
+
+---
+
+## Richardson Stream | FYREF4C4.1 | Late Summer / Early Fall 2024
+
+
+**Fish:** H<sub>f</sub> = 1.12 · 6 species · 16,975 reads
+
+### Sentinel Signal
+
+Creek Chub 51% + Blacknose Dace 18% = clean, cold, clear headwater stream community. **Atlantic Salmon 1.7% = the second spawning-run salmon confirmation in this batch — in a different tributary.** This watershed is holding salmon.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Semotilus atromaculatus* — Creek Chub | 50.6% | Native cold headwater minnow |
+| *Catostomus commersonii* — White Sucker | 28.8% | Native |
+| *Rhinichthys atratulus* — Blacknose Dace | 18.3% | Native cold headwater indicator |
+| ***Salmo salar* — Atlantic Salmon** | **1.7%** | **Native anadromous — FEDERALLY ENDANGERED** |
+| *Notemigonus crysoleucas* — Golden Shiner | 0.3% | Native |
+| *Anguilla rostrata* — American Eel | 0.3% | Native catadromous |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+Richardson Stream delivers the second Atlantic Salmon confirmation in this batch — 1.7% in a small headwater stream community dominated by Creek Chub and Blacknose Dace. **Two East Machias watershed tributaries with Endangered Atlantic Salmon confirmed by eDNA in a single sampling event in October** — this is the fall spawning run documented at the tributary scale.
+
+Creek Chub (*Semotilus atromaculatus*) at 51% + Blacknose Dace (*Rhinichthys atratulus*) at 18% is the classic small, clean, cold Maine headwater community. Blacknose Dace in particular is a species of cool, clear streams with stable gravel substrate and good dissolved oxygen — the same water that Atlantic Salmon need for spawning redds and that Brook Trout need for year-round occupation. The full fish community here — Chub, Dace, Sucker, Salmon, Eel — is the ecological fingerprint of a functioning cold-water tributary.
+
+Atlantic Salmon at 1.7% in October is a stronger signal than the 1.1% at Northern Stream, consistent with spawning-run fish entering the tributary system actively. **Richardson Stream should also be flagged to NOAA Fisheries and Maine DMR as a confirmed Atlantic Salmon spawning tributary.**
+
+The absence of Brook Trout in October does not exclude their presence — cold upper reaches of Richardson Stream, away from the mainstem sampling point, are the most likely Brook Trout habitat. The community structure (Chub + Dace + Salmon) is entirely compatible with Brook Trout co-occurrence in cold headwaters.
+
+### Native vs. Non-Native
+
+All detected species are native to Maine coastal streams.
+
+---
+
+---
+
+## Beaver Dam Stream / Rt 9 | B5OWY48H.1 | September 2, 2024
+
+
+**Fish:** H<sub>f</sub> = 0.85 · 4 species · 1,453 reads
+
+### Sentinel Signal
+
+Creek Chub 72% + Blacknose Dace 17% = small, clean headwater stream. Eel 4% confirms ocean connectivity even at this small size. No Atlantic Salmon in September — early for the fall return.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Semotilus atromaculatus* — Creek Chub | 72.1% | Native cold headwater minnow |
+| *Rhinichthys atratulus* — Blacknose Dace | 16.7% | Native headwater indicator |
+| *Catostomus commersonii* — White Sucker | 7.2% | Native |
+| *Anguilla rostrata* — American Eel | 4.0% | Native catadromous |
+| **Brook Trout** | **Absent** | |
+| **Atlantic Salmon** | **Absent** | |
+
+### Narrative
+
+Beaver Dam Stream at Rt 9 in early September is a small headwater stream with a classic clean-water community: Creek Chub dominant at 72%, Blacknose Dace at 17%, White Sucker at 7%, Eel at 4%. The stream name implies natural impoundment by beaver activity — beaver ponds can create both cold-water refugia (deep pools with cold groundwater inflow) and warmer impounded areas, making the thermal heterogeneity of this site worth investigating.
+
+No Brook Trout or Atlantic Salmon detected in September. The September sampling date is early for the fall Atlantic Salmon return on Maine coastal streams (peak typically October–November). The community structure — Chub, Dace, Sucker, Eel — is characteristic of small, clean headwater streams and is not incompatible with Brook Trout presence in the coldest reaches.
+
+The total read count is low (1,453 reads), limiting confidence in species completeness for this sample.
+
+### Native vs. Non-Native
+
+All detected species are native.
+
+---
+
+---
+
+## JVB3988 — Summary
+
+
+| Site | Brook Trout | Atlantic Salmon | Key Community |
+|---|---|---|---|
+| East Machias Rt 9 | Absent | Absent | Blueback Herring 87% — fall run |
+| Northern Stream | Absent | **1.1% — CONFIRMED** | Fallfish 90% — headwater quality |
+| Northern Outlet | Absent | Absent | Eel + Sucker + Fallfish — outlet reach |
+| Richardson Stream | Absent | **1.7% — CONFIRMED** | Creek Chub + Dace — headwater |
+| Beaver Dam Stream | Absent | Absent | Creek Chub + Dace — small headwater |
+
+**Atlantic Salmon in two East Machias tributaries — Northern Stream and Richardson Stream — confirmed by eDNA in October 2024.** These are federally endangered fish in natal spawning tributaries. Flag immediately to NOAA Fisheries and Maine DMR for habitat assessment and protection.
+
+---
+
+---
+
+## 50-ft Meatball @ Gardner Lake, ME | ZLQM1TH7.1 | August 5, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.12 · 6 species · 35,307 reads
+
+**Site:** Gardner Lake, East Machias area, ME (lat 44.762°N, -67.354°W). A lake in the East Machias watershed. "Meatball" = a buoy or anchor point; the sample was taken at 50-foot depth.
+
+### Sentinel Signal
+
+Eel 53.7% + Alewife 7.9% + Rainbow Smelt 0.3% = lake with active ocean connectivity. Eel + Yellow Perch as the dominant pair suggests a deep, productive lake with diverse littoral and pelagic habitat. No Brook Trout.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Anguilla rostrata* — American Eel | 53.7% | Native catadromous — dominant |
+| *Perca flavescens* — Yellow Perch | 31.9% | Native |
+| *Alosa pseudoharengus* — Alewife | 7.9% | Native — lake population or run |
+| *Morone americana* — White Perch | 5.3% | Native |
+| *Catostomus commersonii* — White Sucker | 0.9% | Native |
+| *Osmerus mordax* — Rainbow Smelt | 0.3% | Native anadromous |
+| **Brook Trout** | **Absent** | |
+| **Atlantic Salmon** | **Absent** | |
+
+### Narrative
+
+Gardner Lake in August holds a diverse, connected native fish community. American Eel at 53.7% — dominant in the lake — confirms that ocean connectivity exists through the East Machias River system to this lake. Eels that entered the East Machias as juvenile elvers have grown to full size in Gardner Lake. Eel dominance of this kind is characteristic of older, productive lakes with good connectivity and minimal barriers to eel passage.
+
+Alewife at 7.9% in August represents the post-spawning summer residency of Alewife that ascended Gardner Lake in spring. Many New England coastal lakes support landlocked or sea-run Alewife populations that spawn in the lake each spring — whether this is a self-sustaining lake population or annual sea-run recruitment requires tag or otolith data.
+
+Rainbow Smelt (0.3%) confirms a smelt population — either lake-resident or anadromous. Rainbow Smelt are an important forage fish for lake trout, landlocked salmon, and other predators and are an ecological anchor of cold-water Maine lake ecosystems.
+
+No Brook Trout or Atlantic Salmon detected in August. The absence at this deep-water offshore sample point does not rule out their presence in nearshore or inlet habitats — cold spring inflows to the lake could support Brook Trout in sheltered coves that this open-water sample does not represent.
+
+### Native vs. Non-Native
+
+All detected species are native to Maine coastal lake systems.
+
+---
+
+---
+
+## Northern Inlet | B77DD40T.1 | July 28, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.14 · 6 species · 25,459 reads
+
+**Site:** Northern Inlet, East Machias area, ME (location from batch context).
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Catostomus commersonii* — White Sucker | 42.3% | Native |
+| *Anguilla rostrata* — American Eel | 42.0% | Native catadromous |
+| *Semotilus corporalis* — Fallfish | 10.9% | Native clean-water indicator |
+| *Notemigonus crysoleucas* — Golden Shiner | 4.1% | Native |
+| *Perca flavescens* — Yellow Perch | 0.7% | Native |
+| *Alosa pseudoharengus* — Alewife | 0.1% | Native anadromous — trace |
+| **Brook Trout** | **Absent** | |
+
+White Sucker (42%) + Eel (42%) + Fallfish (11%) in July — a balanced native stream community with three co-dominant species. Fallfish at 11% confirms clean, stable habitat. The nearly equal Sucker/Eel split is unusual — the high Eel abundance suggests a deep pool or impounded reach where Eels concentrate. Alewife trace (0.1%) confirms ocean connectivity. No Brook Trout. The community is compatible with Brook Trout in cooler upstream reaches; summer headwater sampling would clarify.
+
+---
+
+---
+
+## East Machias at Rt 9 | A5BU49PD.1 | July 28, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.02 · 6 species · 27,567 reads
+
+### Sentinel Signal
+
+Blueback Herring 50.6% + Fallfish 35.3% = the summer herring run in July on the East Machias, with a strong native minnow community holding alongside. **No Brook Trout.**
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Alosa aestivalis* — Blueback Herring | 50.6% | Native anadromous — summer run |
+| *Semotilus corporalis* — Fallfish | 35.3% | Native clean-water indicator |
+| *Anguilla rostrata* — American Eel | 13.4% | Native catadromous |
+| *Notemigonus crysoleucas* — Golden Shiner | 0.3% | Native |
+| *Catostomus commersonii* — White Sucker | 0.2% | Native |
+| *Semotilus atromaculatus* — Creek Chub | 0.2% | Native headwater minnow |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+East Machias at Rt 9 in July 2025 — comparing with JVB3988 (October 2024, same site): Blueback Herring was 87% in October; it is 50.6% in July. The Fallfish signal is much stronger in July (35.3%) than in October (7%). This is a seasonal shift: in October the fall herring run concentrates the Alewife/Blueback signal at maximum intensity; in July the run is less concentrated (or more dispersed through the system) and the resident Fallfish population is visible at much higher abundance.
+
+The community (Blueback + Fallfish + Eel) is entirely consistent with what we see at the JVB3988 sampling — confirming that this East Machias Rt 9 site has a stable, quality native community across time points.
+
+*Sample notes indicate Smallmouth Bass was "confirmed" by visual observation at this site. No *Micropterus* reads are present in the MiFish data. Either: (1) the individual observed was a stray not producing detectable eDNA at this sample point, (2) the visual ID was mistaken (Fallfish can be confused with young bass in some conditions), or (3) Smallmouth Bass are present at low abundance below the MiFish detection threshold. Visual confirmation of Smallmouth Bass (*Micropterus dolomieu*, non-native in the East Machias watershed) is a conservation concern worth follow-up electrofishing.*
+
+No Brook Trout. Same interpretation as JVB3988: mainstem sampling during anadromous run periods does not represent cold headwater tributaries.
+
+### Native vs. Non-Native
+
+All detected species are native to the East Machias watershed.
+
+---
+
+---
+
+# 4. Maine — Orange River (Temporal Monitoring)
+
+**Orange, ME · March — June 2025**
+
+*Assay: Fish (MiFish 12S) only*
+
+The Orange River is a small coastal Maine stream sampled at six time points across spring and early summer 2025 — the only site in this study with a continuous temporal monitoring arc. This is an ecological diary for a single stream: March ice-out through June low water, covering the full arc of anadromous fish movement, cyprinid spring spawning, and summer low-flow concentration. The Orange River drains a mixed forest and agricultural landscape and shows marked seasonal turnover in fish community composition.
+
+Sampling is conducted at a mainstem location. No Brook Trout has been detected at this reach across any time point or season. Cold headwater tributaries upstream remain unsampled and represent the priority for cold-water species detection.
+
+**Brook Trout status: Not detected at mainstem sampling point across all six time points.**
+**Atlantic Salmon status: Not detected.**
+
+---
+
+## Orange River, ME | 0VKQUDZE.1 | March 14, 2025
+
+
+**Fish:** 491 reads · QC anomaly — low confidence
+
+*Nocomis* sp. RA01 (84%) + *Luxilus albeolus* (16%). Both are cyprinids of the Mid-Atlantic and Midwest — *Nocomis* (Hornyhead Chub) and *Luxilus albeolus* (White Shiner) have no confirmed native or introduced range in coastal Maine. With only 491 total reads in a cold March sample, this result almost certainly reflects database misassignment of reads from Maine-native cyprinids (Fallfish, Golden Shiner, or Creek Chub) that are phylogenetically close but geographically distinct. **Do not interpret ecologically.** Spring or summer resample of the Orange River will produce higher-confidence community data.
+
+---
+
+---
+
+## Orange River, ME — Temporal Transect (March–May 2025)
+
+
+The Orange River (Washington County, ME, near Harrington; coordinates ~44.790°N, -67.175°W) has now been sampled across multiple time points and batches, building a seasonal profile. These results are presented together.
+
+### Orange River / High Head Rd | DAZWXP7N.1 | March 28, 2025
+
+**Fish:** H<sub>f</sub> = 1.44 · 5 species · 18,199 reads
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Notemigonus crysoleucas* — Golden Shiner | 33.0% | Native |
+| *Anguilla rostrata* — American Eel | 29.1% | Native catadromous |
+| *Catostomus commersonii* — White Sucker | 20.3% | Native |
+| *Perca flavescens* — Yellow Perch | 14.2% | Native |
+| *Chrosomus neogaeus* — Finescale Dace | 3.4% | Native cold-water minnow |
+| **Brook Trout** | **Absent** | |
+
+### Orange River "Orange Bucket" | 2EZ4FTGP.1 | April 21, 2025
+
+**Fish:** H<sub>f</sub> = 1.21 · 5 species · 28,671 reads
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Notemigonus crysoleucas* — Golden Shiner | 51.8% | Native |
+| *Catostomus commersonii* — White Sucker | 19.9% | Native |
+| *Perca flavescens* — Yellow Perch | 19.0% | Native |
+| *Anguilla rostrata* — American Eel | 8.9% | Native catadromous |
+| *Osmerus mordax* — Rainbow Smelt | 0.3% | Native anadromous — spring run |
+| **Brook Trout** | **Absent** | |
+
+### Orange River | EYNRUYTO.1 | May 7, 2025
+
+**Fish:** H<sub>f</sub> = 1.38 · 5 species · 43,649 reads
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Catostomus commersonii* — White Sucker | 35.2% | Native |
+| *Notemigonus crysoleucas* — Golden Shiner | 24.0% | Native |
+| *Anguilla rostrata* — American Eel | 21.0% | Native catadromous |
+| *Perca flavescens* — Yellow Perch | 19.4% | Native |
+| *Alosa pseudoharengus* — Alewife | 0.4% | Native anadromous — trace spring run |
+| **Brook Trout** | **Absent** | |
+
+### Orange River — Ecological Synthesis
+
+Three time points on the Orange River (late March, late April, early May 2025) show a consistent community structure: Golden Shiner, White Sucker, Yellow Perch, and Eel form the stable backbone. The community is entirely native and ecologically coherent for a small Washington County coastal stream.
+
+Two seasonally important signals:
+
+**Rainbow Smelt (April 21, 0.3%):** *Osmerus mordax* is a native anadromous species that runs into Maine coastal streams in early spring for spawning. The April 21 Smelt signal confirms the Orange River has at least some anadromous connectivity and that this run passes through the system. Smelt spawn in small streams over gravel and sandy substrate — good Smelt habitat is also compatible with Brook Trout use.
+
+**Alewife (May 7, 0.4%):** The first Alewife signal of the season on the Orange River in early May — the spring run beginning. The low abundance (0.4%) compared with Union River (85%+) suggests a more modest Alewife run on the Orange River or a sampling point well above the main run staging area.
+
+**Brook Trout: Absent across all Orange River time points.** The warm-water dominant community (Yellow Perch, Golden Shiner) suggests the main-channel sampling point may not represent cold-water refugia. Whether the Orange River headwaters hold Brook Trout is unknown from this data. **Priority: Headwater sampling of Orange River tributaries with cold spring inputs.**
+
+---
+
+---
+
+## Orange River, ME — Black Fly Season | 8UCIL5TX.1 | May 14, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.11 · 6 species · 44,766 reads
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Perca flavescens* — Yellow Perch | 62.3% | Native |
+| *Anguilla rostrata* — American Eel | 13.4% | Native catadromous |
+| *Notemigonus crysoleucas* — Golden Shiner | 12.8% | Native |
+| *Catostomus commersonii* — White Sucker | 10.6% | Native |
+| *Alosa pseudoharengus* — Alewife | 0.9% | Native anadromous — spring run building |
+| *Chrosomus neogaeus* — Finescale Dace | 0.1% | Native cold-water minnow |
+| **Brook Trout** | **Absent** | |
+
+Orange River in mid-May — Yellow Perch dominant (62%) with the spring Alewife run at 0.9% and Finescale Dace (*Chrosomus neogaeus*, 0.1%) making a subtle appearance. Finescale Dace is a cold-tolerant minnow of soft, slightly acidic, oligotrophic streams — its presence is a quiet indicator that the Orange River system includes cold, low-nutrient reaches somewhere above this sampling point. No Brook Trout.
+
+---
+
+---
+
+## Orange River, ME | 49ZA9JIJ.1 | June 18, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.02 · 5 species · 37,614 reads
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Anguilla rostrata* — American Eel | 57.6% | Native catadromous |
+| *Notemigonus crysoleucas* — Golden Shiner | 29.6% | Native |
+| *Catostomus commersonii* — White Sucker | 10.5% | Native |
+| *Perca flavescens* — Yellow Perch | 1.4% | Native |
+| *Alosa pseudoharengus* — Alewife | 0.9% | Native anadromous — post-peak |
+| **Brook Trout** | **Absent** | |
+
+Orange River in late June — Eel dominant (57.6%) with Golden Shiner (30%) and White Sucker (10%). Alewife at 0.9% is declining from the May peak. Sample notes indicate very low water at this time ("Hobo was dry") — the Orange River was running at low stage in mid-June 2025, likely concentrating fish in pools and reducing overall eDNA dispersal. The Eel-dominant community in a low-water period is consistent with Eels occupying deep pool refugia. No Brook Trout.
+
+**Orange River cross-batch synthesis:** Five sampling events across March–June 2025 (JVB4678, JVB4846, JVB4981, JVB5403) show a consistent native community: Golden Shiner, Eel, White Sucker, Yellow Perch, trace Alewife and Rainbow Smelt in spring. No Brook Trout detected at any time point. The Orange River at this sampling location is a warm-water generalist stream community. Whether cold headwater refugia exist in upper tributaries is the critical unanswered question.
+
+---
+
+---
+
+# 5. MBTS / Manchester-by-the-Sea, MA — Sawmill Brook
+
+**Manchester-by-the-Sea, MA · November 2023 — June 2025**
+
+*Assay: Fish (MiFish 12S) + Algae (23S rRNA, Nov 2023 & Aug 2024) · Fish only (Oct 2024–Jun 2025)*
+
+Sawmill Brook in Manchester-by-the-Sea is the most intensively monitored site in Massachusetts — eleven samples across nineteen months at multiple reaches from the swamp headwaters to the tidal mouth. The Manchester-by-the-Sea Brook Trout monitoring program (MBTS) tracks ecological recovery of a historically impacted suburban stream. Early samples (November 2023, August 2024) carry both fish and algal data; later samples are fish-only. The November 2023 and August 2024 paired sampling provides the strongest seasonal fish+algae comparison in the Massachusetts dataset.
+
+**Northern Pike (*Esox lucius*) confirmed at Second Pond (October 2024).** Northern Pike is illegal to stock in Massachusetts. Report to MA Division of Fisheries & Wildlife.
+
+**Brook Trout status: Detected (Lower Golf Course reach, Nov 2023).**
+**March 2025 samples returned no fish reads** — expected for cold winter water, not a sample failure.
+
+---
+
+## Upper Sawmill | CVVU52A9.1
+
+**Fish: 5 species, H<sub>f</sub> = 0.87 | Algae: 151 ESVs, H<sub>a</sub> = 4.20 | Date: unknown**
+
+### Sentinel Signal
+Golden Shiner + Sunfish sp. dominant + Cryptomonas + Mallomonas = **pond/impoundment signal, soft water, slightly acid to neutral, no tidal influence, no impairment**. Low fish H<sub>f</sub> reflects habitat type, not stress.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 5.5–6.5 | Cryptomonas + Mallomonas assemblage |
+| Conductivity | 20–50 μS/cm | Soft water, cryptophyte/synurophyte indicators |
+| Total phosphorus | Low–moderate | Productive enough for 151 ESVs, not eutrophic |
+| Dissolved organic carbon | Moderate–high | Humic signal from cryptophytes and Mallomonas |
+| Stratification | Likely seasonal | Cryptomonas competitive under stratified conditions |
+| Salinity | Freshwater | No estuarine species in fish community |
+
+### Narrative
+The fish community — Golden Shiner (58.3%), Sunfish sp. (36.8%), Bass sp. (2.1%), American Eel (2.6%), Bullhead sp. (0.2%) — is definitively a warm-water, still-water assemblage. Golden Shiner and Sunfish are pond and backwater specialists. Their dominance indicates a lentic environment: a pond, reservoir, or slow-moving impoundment upstream of tidal influence. No estuarine species. No anadromous species except Eel. H<sub>f</sub> = 0.87 reflects the naturally limited fish diversity of a small pond, not chemical impairment.
+
+The algal community is ecologically informative: H<sub>a</sub> = 4.20, 151 ESVs. Cryptomonas (26.1%) and *Cryptomonas obovoidea* (8.7%) — cryptophytes competitive in stratified, humic, slightly acidic conditions. Mallomonas (9.7%) — a scaled synurophyte indicating soft, slightly acidic, oligotrophic water. This is the algal community of a small softwater pond: productive enough to support 151 ESVs, but chemically soft and likely seasonally stratified.
+
+### Native vs. Non-Native
+American Eel is native. Golden Shiner (*Notemigonus crysoleucas*) is native to eastern North America but is a common pond-stocking species in Massachusetts — its dominance here may reflect artificial introduction rather than natural recruitment. Sunfish sp. and Bass sp. detections (likely Pumpkinseed or Bluegill; Largemouth Bass) are native to eastern NA but are routinely stocked in MA ponds. Bullhead sp. (likely Brown Bullhead, *Ameiurus nebulosus*) is native. The Eel's presence confirms that some downstream connectivity to tidal water exists even from this pond habitat.
+
+---
+
+---
+
+## Below School St | CDWD42KP.1
+
+**Fish: 9 species, H<sub>f</sub> = 1.40 | Algae: 178 ESVs, H<sub>a</sub> = 4.43 (second highest in dataset)**
+
+### Sentinel Signal
+Mummichog + Fourspine Stickleback + American Eel + estuarine diatoms = **tidal freshwater-to-oligohaline transition, fully functional, native coastal assemblage**. This two-species sentinel pair (Mummichog + Fourspine Stickleback) alone defines the habitat type unambiguously.
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 6.5–7.5 | Tidal influence; diatom-rich community |
+| Salinity | 0.5–5 ppt (tidal cycles) | Mummichog + Fourspine Stickleback co-dominance |
+| Conductivity | 100–500 μS/cm (variable) | Tidal mixing with marine water |
+| Total phosphorus | Moderate | Tidal nutrient flux; high diatom diversity |
+| Silica | Moderate–high | Diatoms 23% of algal community |
+| Dissolved oxygen | Variable but adequate | Tidal mixing maintains oxygenation |
+| Turbidity | Moderate | Tidal resuspension; cryptophytes competitive |
+
+### Narrative
+The fish community names this site's character plainly: Mummichog (42.1%), Fourspine Stickleback (31.6%), American Eel (15.6%).
+
+Mummichog (*Fundulus heteroclitus*) is the quintessential salt marsh and tidal creek fish of the northeast coast — native, tolerant of salinity from fresh to full seawater, and adapted to the biological extremes of tidal dynamics. Fourspine Stickleback (*Apeltes quadracus*) is a brackish-water specialist found throughout coastal New England tidal creeks. These two species together define the tidal freshwater-to-oligohaline transition zone with a specificity that no chemical measurement could better. American Eel confirms ocean connectivity. White Perch (5.3%) — a euryhaline native of coastal New England — reinforces the estuarine character.
+
+The algal community is the second most diverse in the entire dataset: 178 ESVs, H<sub>a</sub> = 4.43. Tidal systems receive regular nutrient pulses from marine water, decomposing organic matter, and sediment resuspension — conditions that support high algal diversity. Diatoms (23.1%) are classic estuarine primary producers, renewed by tidal flux of silica, nitrogen, and phosphorus. Cryptomonas (22.0%) is competitive in the low-light, mixed-salinity conditions of a tidal fringe.
+
+### Native vs. Non-Native
+All detected fish are native to the coastal New England estuarine environment. Mummichog, Fourspine Stickleback, White Perch, and American Eel are among the most characteristic native species of this habitat type. There is no non-native fish signal at this site.
+
+Below School St is a functioning tidal transition ecosystem. This is what a healthy coastal tidal reach looks like in late November.
+
+---
+
+---
+
+## Lower Golf Course / Sawmill Brook | C4SUMTFY.1
+
+**Fish: 9 species, H<sub>f</sub> = 1.62 | Algae: 140 ESVs, H<sub>a</sub> = 3.57**
+
+### Sentinel Signal
+Charophytes (Stonewort class) at 35% + Mummichog/Fourspine Stickleback + Golden Shiner/Sunfish = **ecotone signal: calcium-rich clean groundwater input meeting tidal backwater**. The Charophyte signal is ecologically significant — but **genus was not resolved in the 23S rRNA data**, and in-situ verification is required before species identity and invasive status can be confirmed (see note below).
+
+### Inferred Water Chemistry
+| Parameter | Inferred value | Basis |
+|---|---|---|
+| pH | 6.5–8.0 | Stonewort optimal range; alkaline to neutral |
+| Calcium | >15–20 mg/L | Stoneworts require Ca²⁺ for cell wall calcification |
+| Conductivity | 80–200 μS/cm | Harder than ME sites; groundwater + tidal mix |
+| Total phosphorus | Low–moderate | Stoneworts outcompeted by phytoplankton above ~20 μg/L TP |
+| Turbidity | Low | Stoneworts cannot photosynthesize in turbid water |
+| Salinity | 0–5 ppt (variable) | Estuarine fish present; freshwater lens from groundwater |
+| Groundwater input | Significant | Only explanation for Ca-rich signal at tidal interface |
+
+### Narrative
+This is the most ecologically complex and most ecologically hopeful site in the Massachusetts dataset.
+
+The fish community straddles two worlds: Fourspine Stickleback (32.4%) and Mummichog (8.5%) signal tidal/estuarine influence; Golden Shiner (14.9%) and Sunfish sp. (24.5%) are freshwater warm-water taxa. American Eel (17.3%) bridges both. Rainbow Smelt (0.2%) and Yellow Perch (1.4%) add coastal connectivity and tolerant generalist presence. This is a mixing zone — freshwater meeting tidal backwater — and the fish community reflects that ecotone exactly. Ecotones are often biodiversity hotspots precisely because they receive inputs from both adjacent systems simultaneously. H<sub>f</sub> = 1.62 is the highest in the Massachusetts dataset.
+
+The algal signal here is the most striking in the Massachusetts data, and arguably the most important single finding in the batch: **Charophytes (Stoneworts) at 35.0%**.
+
+Stoneworts (*Chara*, *Nitella*, and related genera) are macrophytic charophytes — structurally complex plants that anchor to the substrate in shallow, clear, well-lit water. They are exquisitely sensitive to conditions:
+
+- **Water clarity**: Stoneworts cannot photosynthesize in turbid water. Their dominance means low suspended sediment and good light penetration to the substrate.
+- **Calcium**: Stoneworts require calcium to build their calcareous cell walls and encrustations. Their 35% dominance at this site signals Ca²⁺ concentrations well above what the granite-derived Maine sites could support — almost certainly a groundwater or spring input.
+- **pH**: Stoneworts grow optimally between pH 6.5 and 8.0. This is alkaline relative to the Maine watershed and to the MA soft-water pond site upstream.
+- **Nutrient status**: Stoneworts are outcompeted by filamentous algae and cyanobacteria under nutrient-enriched conditions. Their dominance here indicates oligotrophic to mesotrophic, unimpaired water quality.
+- **Habitat value**: Stonewort beds are structural aquatic habitat — fish and invertebrates use them for cover, spawning substrate, and foraging.
+
+A 35% Charophyte signal at a tidal interface site in a developed coastal town is ecologically significant regardless of species identity — it confirms calcium-rich, clear, low-turbidity groundwater input that is maintaining conditions suitable for a sensitive, structurally complex aquatic macrophyte against the backdrop of development pressure and tidal dynamics.
+
+**Critical caveat — invasive species risk.** The 23S rRNA data resolved this signal to class (Charophyceae) but not to genus. Native *Chara* and *Nitella* — clean-water indicators — and **Starry Stonewort (*Nitellopsis obtusa*)** — an invasive charophyte spreading rapidly through the northeastern US from Great Lakes origin — are **both Charophyceae and cannot be distinguished in this dataset**. Starry Stonewort thrives in exactly these conditions: calcium-rich, clear, hard water. It is now documented in Vermont and New York and is actively expanding toward Massachusetts. The conditions at Golf Course/Sawmill Brook are permissive for both the native and the invasive. **In-situ morphological identification or targeted species-specific PCR is required before this signal can be confidently interpreted as native or invasive.** This is not a minor footnote — if *Nitellopsis obtusa* is established here, it is a management priority, not a positive indicator.
+
+### Native vs. Non-Native
+All detected fish species are native to eastern North America in this habitat type. Golden Shiner and Sunfish spp. may reflect upstream pond stocking, but they are native species. Fourspine Stickleback, Mummichog, American Eel, Rainbow Smelt, and Yellow Perch are all wild, native coastal New England fish. No non-native fish signal detected.
+
+Lower Golf Course / Sawmill Brook sits at the intersection of productive tidal ecology and a clean, calcium-rich freshwater input. The Charophyte signal is the most ecologically complex finding in the Massachusetts dataset — and its true character (native indicator vs. invasive alert) is the most important unanswered question in the batch. It warrants immediate field verification.
+
+---
+
+---
+
+## Massachusetts Summary
+
+
+| Site | Fish spp. | H<sub>f</sub> | Algae ESVs | H<sub>a</sub> | Key Sentinel Complex | Character |
+|---|---|---|---|---|---|---|
+| Lower Golf Course / Sawmill | 9 | 1.62 | 140 | 3.57 | Stoneworts 35% + estuarine-freshwater ecotone fish | **Ecotone — Ca-rich groundwater meets tidal** |
+| Below School St | 9 | 1.40 | 178 | 4.43 | Mummichog + Fourspine Stickleback + estuarine diatoms | **Tidal transition — fully functional** |
+| Upper Sawmill | 5 | 0.87 | 151 | 4.20 | Golden Shiner + Cryptomonas + Mallomonas | Pond habitat — soft water, not impaired |
+
+No impairment signals in Manchester-by-the-Sea. The three sites represent a downstream gradient from soft-water pond to tidal transition, with the ecotone at Golf Course/Sawmill Brook the most ecologically complex and most conservation-valuable of the three.
+
+---
+
+---
+
+---
+
+## Sawmill Brook — Three Sites (Manchester-by-the-Sea, MA)
+
+### August 28, 2024 · Below School St · Fire Station · Sawmill Swamp
+
+**Note:** Sawmill Brook is in Manchester-by-the-Sea on the North Shore — not Cape Cod. Three sites provide a longitudinal transect: Sawmill Swamp (headwaters, cold groundwater source) → Below School St (mid-reach) → Fire Station (tidal limit).
+
+---
+
+### Sawmill Swamp | 5K41GBHR.1 | Aug 28, 2024
+
+**Fish:** H<sub>f</sub> = 0.65 · 5 species | **Algae:** H<sub>a</sub> = 4.24 · 4,259 reads
+
+#### Sentinel Signal
+
+Brook Trout 1.0% in a swamp in August = cold groundwater upwelling sustaining a thermal refugium. Cryptophytes 47.3% + Synurophytes 26.0% = clean, soft, peat-influenced water independently confirming Brook Trout-compatible chemistry.
+
+#### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Cool (cold groundwater influence) | Brook Trout present in August |
+| pH | Slightly acidic (5.5–6.5) | Synurophytes + Euglenoids + *Chroomonas* |
+| Phosphorus | Very low (oligotrophic) | Synurophyte/Cryptophyte dominance |
+| Dissolved oxygen | Adequate | Brook Trout presence |
+| Brook Trout habitat | Present — cold groundwater refugium | Strong corroboration from algal community |
+
+#### Narrative
+
+Brook Trout present at 1.0% in August in a swamp is a meaningful ecological signal. Swampy headwater reaches can retain cold groundwater upwelling even when surface water warms — it is precisely these hidden thermal refugia where Brook Trout survive Massachusetts summers. This is one of the most encouraging findings in the batch: the worst-case sampling season (August), the most hydrologically challenged site type (swamp), and Brook Trout are still here.
+
+The Cryptophyte/Synurophyte algal community (H<sub>a</sub> = 4.24) independently confirms cool, clean, low-nutrient conditions. The Eel dominance (74%) is consistent with a pool-heavy, low-gradient reach that Eels favor. Bass at 24% is the concern — Largemouth Bass in a headwater swamp are competing with, and potentially predating, the Brook Trout population.
+
+**This is a cold-water refuge worth protecting.** The source of the cold groundwater should be identified and protected from any activity (impervious surface, groundwater withdrawal, thermal discharge) that would warm or reduce it.
+
+#### Algal Community
+
+Cryptophytes 47.3% (*Synura* + *Chroomonas* + *Cryptomonas*) + Synurophytes 26.0% + Euglenoids 8.1%. H<sub>a</sub> = 4.24.
+
+#### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Brook Trout, American Eel | Native |
+| *Micropterus* sp. — Bass | Non-native — competing with Brook Trout |
+| *Ameiurus* sp. — Bullhead | Native (Brown Bullhead, *A. nebulosus*, is native to New England) |
+
+---
+
+### Sawmill Brook — Below School St | UG79PNJS.1 | Aug 28, 2024
+
+**Fish:** H<sub>f</sub> = 1.05 · 8 species | **Algae:** H<sub>a</sub> = 3.06 · 3,724 reads
+
+*Note: Same site as JVB5776 "Below School St" (November 2023). Two seasonal time points now available.*
+
+#### Sentinel Signal
+
+Brook Trout 2.5% — identical to November 2023 (JVB5776). **Two seasons, same answer: Brook Trout are stable residents through this reach of Sawmill Brook.** American Eel 66.5% confirms tidal connectivity.
+
+#### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Mixed (tidal influence) | Eel 66% + Stickleback 16% at sample point; Brook Trout upstream |
+| pH | Circumneutral at sample point | Mixed community |
+| Brook Trout habitat | Present upstream | Stable two-season signal |
+
+#### Narrative
+
+Brook Trout at 2.5% — consistent with November 2023 (JVB5776: also 2.5% at this same site). **Two seasons, same answer: Brook Trout are stable residents in Sawmill Brook through this reach.** American Eel dominance (67%) and Fourspine Stickleback (16%) confirm tidal influence at the sampling point, but Brook Trout DNA is persistent and repeatable across seasons. The tidal zone does not preclude trout occupying the brook immediately upstream.
+
+Non-native Bass at 1.4% is present but not dominant — the native community is holding. *Lepomis* sp. at 11.8% likely includes both native Pumpkinseed and potentially introduced Bluegill; species resolution requires electrofishing.
+
+**Sawmill Brook priority:** Cross-batch data from this site (below), the Fire Station (tidal zone), and the Swamp (headwaters) now form a longitudinal profile. The Swamp holds the cold-water source; this reach holds a stable Brook Trout population; the Fire Station represents the tidal limit. All three data points together make the case for watershed-scale management.
+
+#### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Brook Trout, American Eel | Native |
+| Fourspine Stickleback | Native |
+| *Lepomis* sp. | Mixed (see above) |
+| *Micropterus* sp. — Bass | Non-native |
+| *Ameiurus* sp. — Bullhead | Native |
+
+---
+
+### Sawmill Brook — Fire Station | OTLHJZBA.1 | Aug 28, 2024
+
+**Fish:** H<sub>f</sub> = 0.23 · 7 species | **Algae:** H<sub>a</sub> = 2.93 · 6,555 reads
+
+#### Sentinel Signal
+
+Mummichog 95.2% + estuarine diatoms (*Nanofrustulum*, *Entomoneis*) = unambiguous tidal zone. Brook Trout trace at 0.1% = DNA arriving from upstream, not trout in the estuary.
+
+#### Narrative
+
+Algal community: 97% Diatoms, dominated by *Nanofrustulum shiloi* (5.2%) and *Entomoneis* sp. (4.3%) — both estuarine/brackish diatoms. Combined with Mummichog at 95%, this is the tidal limit of Sawmill Brook. Brook Trout trace at 0.1% represents upstream DNA arriving at the tidal limit, not trout occupying the estuary.
+
+#### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Mummichog, American Eel, Fourspine Stickleback | Native |
+| *Salvelinus* sp. trace | Native — upstream origin |
+
+---
+
+---
+
+## Sawmill Brook / School St, Manchester-by-the-Sea, MA | UTEVR3WT.1 | March 18, 2025
+
+
+**Fish:** No reads — sample below detection threshold.
+
+March sampling in a cold New England stream consistently produces minimal to no fish eDNA. Fish metabolic rates, DNA shedding, and activity levels are all suppressed in near-freezing water. This is a null result, not a failure — it means the eDNA signal in March 2025 was below the detection limit of the assay. Compare with August 2024 (JVB3787) and November 2023 (JVB5776): Brook Trout confirmed at 2.5% at this site in both seasons. A spring (April/May) or fall resample would be productive.
+
+---
+
+---
+
+## Second Pond, Manchester-by-the-Sea, MA | OC41MHKC.1 | October 15, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.28 · 8 species · 7,351 reads
+
+### Sentinel Signal
+
+Alewife 63% = fall run staging in MBTS pond before winter migration. **Tessellated Darter 5% = strong clean-habitat signal.** Northern Pike 1.5% = **non-native invasive predator confirmed** — a significant conservation finding. Spotfin Shiner = QC flag (not native to New England).
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Alosa pseudoharengus* — Alewife | 63.1% | Native anadromous — fall staging |
+| *Catostomus commersonii* — White Sucker | 12.6% | Native |
+| *Ambloplites rupestris* — Rock Bass | 9.5% | Non-native — introduced from Great Lakes |
+| *Etheostoma olmstedi* — Tessellated Darter | 5.0% | Native benthic quality indicator |
+| *Cyprinella spiloptera* — Spotfin Shiner | 3.6% | QC flag — not native to New England |
+| *Notemigonus crysoleucas* — Golden Shiner | 2.7% | Native |
+| *Perca flavescens* — Yellow Perch | 2.0% | Native |
+| *Esox lucius* — Northern Pike | 1.5% | **Non-native — illegally stocked** |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+Second Pond in October delivers two opposing findings simultaneously: a strong ecological health signal and a non-native invasive alert.
+
+**The positive finding:** Alewife at 63% in October confirms that Second Pond maintains connectivity to tidal Manchester Harbor and the ocean — the Alewife run ascends here in spring to spawn and the fall eDNA represents juveniles and late adults staging before their winter seaward migration. Tessellated Darter at 5% is a strong endorsement of habitat quality — 5% is a substantial abundance signal, not a trace, indicating a resident population of this clean-water benthic species in Second Pond.
+
+**The conservation concern:** Northern Pike (*Esox lucius*) at 1.5% is a significant finding. Northern Pike is not native to coastal Massachusetts and is on the Massachusetts Division of Fisheries & Wildlife list of illegal species for stocking — illegal introduction of Northern Pike is a felony under Massachusetts law. Northern Pike is an apex freshwater predator that can devastate native fish communities, including Alewife runs, Tessellated Darters, and any Brook Trout in connected upstream reaches. **This detection should be reported to Massachusetts DFW immediately.**
+
+Rock Bass (*Ambloplites rupestris*, 9.5%) is likewise non-native to New England coastal watersheds — introduced from the Great Lakes drainage. Its presence adds to the invasive species pressure on the native community.
+
+*Cyprinella spiloptera* (Spotfin Shiner, 3.6%) is a Mid-Atlantic/Midwest cyprinid with no confirmed native range in New England. This is most likely a database misassignment of reads from a native cyprinid (Golden Shiner or similar); 7,351 total reads is a moderate-confidence dataset. Flag for QC review; do not treat as an ecological detection.
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Alewife, White Sucker, Tessellated Darter, Golden Shiner, Yellow Perch | Native |
+| Rock Bass | Non-native — Great Lakes introduction |
+| *Esox lucius* — Northern Pike | **Non-native — illegal stocking; report to MA DFW** |
+| *Cyprinella spiloptera* | QC flag — likely misassignment |
+
+---
+
+---
+
+## Sawmill Brook Elm Street, Manchester-by-the-Sea, MA | LZAC7T2X.1 | March 18, 2025
+
+
+**Fish:** No reads — same March detection threshold issue as School St site (see above). Same site system as Sawmill Brook School St, different reach. Spring resample recommended.
+
+---
+
+---
+
+## MBTS #3, Manchester-by-the-Sea, MA | AEFBOYWK.1 | April 12, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.22 · 6 species · 17,400 reads
+
+### Sentinel Signal
+
+Mummichog 59.8% + Fourspine Stickleback 12.6% = tidal estuarine site in April. Eel 13.5% = ocean connectivity. Tomcod 0.3% = early spring estuarine movement. No Brook Trout — tidal site.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Fundulus heteroclitus* — Mummichog | 59.8% | Native estuarine |
+| *Anguilla rostrata* — American Eel | 13.5% | Native catadromous |
+| *Apeltes quadracus* — Fourspine Stickleback | 12.6% | Native tidal indicator |
+| *Notemigonus crysoleucas* — Golden Shiner | 9.3% | Native — freshwater runoff |
+| *Perca flavescens* — Yellow Perch | 4.5% | Native — freshwater runoff |
+| *Microgadus tomcod* — Atlantic Tomcod | 0.3% | Native anadromous — spring estuarine |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+MBTS #3 in April is a Manchester-by-the-Sea tidal site — Mummichog + Stickleback = estuarine mixing zone. The freshwater fish (Golden Shiner, Yellow Perch) signal freshwater input to the tidal zone, likely from the Sawmill Brook system draining the watershed above. Atlantic Tomcod (*Microgadus tomcod*, 0.3%) in April is consistent with their spring estuarine movement — Tomcod are amphidromous, moving between fresh and salt seasonally, with spawning occurring in the estuary.
+
+No Brook Trout — expected at a tidal sampling point. The freshwater signal above (Golden Shiner + Yellow Perch) suggests the immediate upstream reach is not cold headwater habitat.
+
+---
+
+---
+
+## Sawmill Brook — Atwater Site, Manchester-by-the-Sea, MA | 2KL87R0I.1 | June 8, 2025
+
+
+**Fish:** H<sub>f</sub> = 0.27 · 4 species (fish) · 8,505 reads
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Notemigonus crysoleucas* — Golden Shiner | 94.8% | Native |
+| *Anguilla rostrata* — American Eel | 2.5% | Native catadromous |
+| *Alosa pseudoharengus* — Alewife | 1.0% | Native anadromous |
+| *Fundulus parvipinnis* (trace) | trace | California killifish — artifact |
+| **Brook Trout** | **Absent** | |
+
+*Non-fish filtered: Chrysemys picta (Painted Turtle) — reptile, not fish.*
+
+Sawmill Brook at the Atwater monitoring site in Manchester-by-the-Sea in June: overwhelmingly Golden Shiner dominated (95%). Low diversity and high Shiner dominance in June may reflect post-spawn aggregation behavior — Golden Shiners school following spawning. Alewife at 1% confirms ocean connectivity through Sawmill Brook. *Fundulus parvipinnis* (California Killifish) is a Pacific coast species — database artifact; exclude.
+
+No Brook Trout in June at this site. Compare with November 2023 (JVB5776) and August 2024 (JVB3787), both of which confirmed Brook Trout at 2.5% at the Sawmill Brook School St site (a different reach). The Atwater site is a distinct monitoring point — continued time-series data here will clarify whether Brook Trout are present in this reach.
+
+---
+
+---
+
+# 6. South Shore, MA — Third Herring Brook & Cohasset
+
+**Norwell / Hanover / Cohasset, MA · August–September 2024**
+
+*Assay: Fish (MiFish 12S) + Algae (23S rRNA)*
+
+Third Herring Brook (THB) drains the Norwell/Hanover area of Plymouth County on the South Shore — a historically significant herring run stream with active restoration work. The Cohasset Narrows Bridge site provides a tidal/estuarine perspective a few miles to the northeast. Both sites carry full fish and algal data from August–September 2024. This is the southernmost extent of the South Shore monitoring effort in the study, and the algal community provides independent inferences about the state of the watershed in late summer.
+
+**Brook Trout status: See site narrative.**
+
+---
+
+## Third Herring Brook (THB) | L08BN6EZ.1 | Aug 28, 2024 — Norwell/Hanover, MA
+
+
+**Fish:** H<sub>f</sub> = 0.44 · 11 species | **Algae:** H<sub>a</sub> = 4.05 · 3,484 reads
+
+**Site location note:** Third Herring Brook is in Norwell/Hanover on the South Shore — not Cape Cod.
+
+### Sentinel Signal
+
+Sunfish 90.5% in August = extreme warm-water thermal stress. Brook Trout trace only. Algal community (H<sub>a</sub> = 4.05) is surprisingly diverse and healthy — the low fish diversity is thermal, not chemical. **Priority resample: October/November.**
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm in August | Sunfish 90.5% thermal dominance |
+| pH | Circumneutral | Diverse algal community: Diatoms 25%, Cyanobacteria 21%, Cryptophytes 20% |
+| Dissolved oxygen | Adequate | No hypoxia indicators in algal community |
+| Brook Trout habitat | Uncertain — resample needed | Trace in August; cold season data required |
+
+### Narrative
+
+Third Herring Brook (THB) in August is Sunfish-dominated at 90.5% — an extreme warm-water community signature in high summer. H<sub>f</sub> = 0.44 reflects not impairment but ecological specialization: one species dominating a thermally stressed August community.
+
+*Lepomis* sp. at 90.5% is sunfish — most likely Pumpkinseed (*L. gibbosus*), the native New England sunfish, though Bluegill (*L. macrochirus*, introduced from the Midwest) cannot be ruled out without species-level identification. *Micropterus* sp. at 0.3% (Bass) is present but not dominant — it could be either Largemouth or Smallmouth Bass, both non-native to most of this region.
+
+The algal community tells a different story than the fish: Diatoms (25%), Cyanobacteria (21%, including *Ulnaria ulna* — a clean-water pennate diatom), Cryptophytes (20%) — H<sub>a</sub> = 4.05 indicates a functionally diverse algal community that does not match the collapsed fish diversity. The disconnect between algal and fish diversity suggests the low fish H<sub>f</sub> is thermal (summer stress suppressing salmonid presence) rather than chemical impairment.
+
+Brook Trout and Salmon/Trout traces (0.1% each) are present but not diagnostic — two to four reads in a large dataset could be residual DNA from cooler upstream reaches. Whether THB holds resident Brook Trout requires a cold-season resample. **Priority: October or November resample at this site** to separate summer thermal stress from year-round absence.
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| *Lepomis* sp. — Sunfish | Pumpkinseed native; Bluegill introduced — cannot distinguish here |
+| American Eel, White Sucker, Golden Shiner, Pickerel | Native |
+| *Micropterus* sp. — Bass | Non-native |
+
+---
+
+---
+
+## Cohasset Narrows Bridge, MA | X3L71IPP.1 | Sep 18, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.51 · 26 species | **Algae:** Failed — no reads (sample .0)
+
+### Sentinel Signal
+
+Menhaden 44.7% + Atlantic Silverside 36.3% + Bluefish + Striped Bass + Mackerel + Ocean Sunfish = **open-ocean nearshore marine community in September**. 26 fish species detected. Marine reference point — compare with Orleans SW (JVB3787) for parallel coastal baseline from Cape Cod.
+
+### Narrative
+
+Cohasset Narrows is an open-ocean or nearshore coastal site — the fish community leaves no ambiguity. Menhaden + Silverside + Scup + Bluefish + Striped Bass + Atlantic Mackerel + Ocean Sunfish is a coastal pelagic marine community, not a freshwater or estuarine one. Bluefish and Striped Bass here are the apex predators of the same Menhaden/Silverside forage base that drives nearshore marine ecosystems along the entire New England coast — the aggressive feeding behavior that is conspicuously absent from Orleans SW is present here in September.
+
+26 fish species detected is exceptional diversity, reflecting the richness of the nearshore marine ecosystem in September when warm-water summer migrants (Bluefish, Scup, Mackerel) are still present and beginning their southward movement. Ocean Sunfish (*Mola* sp.) at 0.9% confirms open-water marine character.
+
+The algae sample failed (no reads), likely due to high salinity reducing PCR efficiency for the 23S primer set. The fish data tells the story adequately.
+
+**Comparison with Orleans SW (JVB3787):** Orleans SW showed a Mummichog/Silverside tidal-creek community with no large predators. Cohasset Narrows shows a full pelagic marine community with apex predators present. These two sites bracket the coastal marine ecosystem: tidal creek margin (Orleans) vs. open nearshore water (Cohasset). Both confirm the richness of the marine end of the watershed gradient that all diadromous fish must traverse.
+
+**Brook Trout: Absent — appropriate and expected for an open marine site.**
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Brevoortia* sp. — Menhaden | 44.7% | Native marine forage fish |
+| *Menidia menidia* — Atlantic Silverside | 36.3% | Native coastal marine |
+| *Stenotomus* sp. — Scup | 5.4% | Native marine |
+| *Pomatomus saltatrix* — Bluefish | 2.5% | Native marine predator |
+| *Morone saxatilis* — Striped Bass | 2.3% | Native anadromous predator |
+| *Apeltes quadracus* — Fourspine Stickleback | 1.3% | Native tidal |
+| *Gobiosoma ginsburgi* — Naked Goby | 1.2% | Native marine |
+| *Tautoga onitis* — Tautog | 0.9% | Native marine |
+| *Mola* sp. — Ocean Sunfish | 0.9% | Native marine |
+| *Scomber scombrus* — Atlantic Mackerel | 0.7% | Native marine |
+| *Anguilla rostrata* — American Eel | 0.3% | Native catadromous |
+| *Alosa pseudoharengus* — Alewife | 0.2% | Native anadromous |
+| Others | <0.3% | Various marine species |
+
+### Native vs. Non-Native
+
+All species detected are native to the New England coastal marine ecosystem.
+
+---
+
+---
+
+# 7. Cape Cod, MA — Cold-Water Stream Monitoring
+
+**Various, MA · August 2024 — June 2025**
+
+*Assay: Fish (MiFish 12S) + Algae (23S rRNA, Aug–Oct 2024) · Fish only (Jun 2025)*
+
+Cape Cod's coastal plain streams — fed by kettle ponds and glacial aquifer discharge — are among the most thermally stable cold-water habitats in Massachusetts. This bucket covers twelve sites across multiple Cape watersheds: Mashpee River, Fresh Brook (Route 6 and Impoundment), Santuit River, Quashnet River, Red Brook, Cat Brook / Forest Landing, Orleans SW, Brewster (Lower Rd.), and the Bournedale / Below Lincoln Pool reach near the Cape Cod Canal.
+
+Brook Trout presence and absence tracks habitat quality, herring-run timing, and impoundment history — the primary interpretive thread throughout. **Mashpee River June 2025 vs. August 2024 comparison reveals herring-run masking of Brook Trout eDNA signal** — Brook Trout at 25.9% in August drops to absent in June when Alewife and Blueback Herring flood the library. This is a methodological finding with implications for sampling design across the Cape.
+
+Early samples (August–October 2024) carry full fish and algal data. June 2025 samples are fish-only. **Fresh Brook Feces sample (JVB4279) is included as an annotated QC entry** — massive raccoon DNA contamination; not an ecological detection.
+
+**Brook Trout status: Detected at multiple sites (Red Brook, Mashpee, Quashnet). Seasonal masking documented.**
+
+---
+
+## Mashpee River | WRMXR4RT.1 | Aug 28, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.84 · 16 species | **Algae:** H<sub>a</sub> = 4.20 · 4,659 reads
+
+### Sentinel Signal
+
+Brook Trout 25.9% + Blueback Herring 22.8% + Tessellated Darter 0.9% = three independent biological lines all confirming the same thing: **this system is functioning.** One of two conservation-priority Brook Trout sites in this batch.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Cold refugia present | Brook Trout in August (requires <18°C) |
+| pH | 5.5–7.0 | Brook Trout + Tessellated Darter tolerance range |
+| Dissolved oxygen | High | Salmonid + Darter co-occurrence |
+| Phosphorus | Low–moderate | 38% Cyanobacteria but dominated by picoplankton, not bloom taxa |
+| Turbidity | Low | Diatoms (12.1%) + Tessellated Darter (clean-gravel benthic indicator) |
+| Brook Trout habitat | Excellent refugia | Strong August signal with corroborating indicators |
+
+### Narrative
+
+The Mashpee River in August delivers the **most compelling Brook Trout signal in this entire batch: 25.9% of normalized fish reads**. This is a strong, confident detection in late August at the peak of summer thermal stress. Brook Trout present in August means this river has cold-water refugia capable of sustaining salmonids through New England's most demanding season.
+
+Alongside Brook Trout, **Blueback Herring (22.8%) and Alewife (6.4%) confirm an open anadromous corridor from Nantucket Sound into the Mashpee watershed**. Blueback Herring (*Alosa aestivalis*) are river-spawning herring with a later spawning run than Alewife; their August eDNA signal represents adults completing their run or juveniles still present. This is a river that still connects the ocean to its interior — the biological infrastructure that has sustained migratory fish here since the last ice age is intact.
+
+Tessellated Darter (0.9%) is the quiet confirmation. This small, benthic, gravel-loving perch requires clean, stable, well-oxygenated stream substrate — the same habitat conditions Brook Trout need. It is an independent ecological witness providing the same testimony from a completely different biological angle: the habitat is clean, the oxygen is adequate, the gravel is stable.
+
+White Sucker (9.1%) is a native generalist that co-evolved with Brook Trout across New England. Its presence is habitat-compatible. American Eel (25.4%) confirms persistent ocean connectivity — Eels penetrate further inland than any other fish and their strong presence often reflects the downstream, more accessible reach of the watershed.
+
+**What this means for trout:** Brook Trout are here in late August. The anadromous corridor is open. The Tessellated Darter confirms clean habitat. **The Mashpee River is one of two conservation-priority sites in this batch**, alongside the Quashnet.
+
+The 38% Cyanobacteria in the algal community is worth watching — dominated by picoplankton (*Synechococcus* and *Cyanobium*), it does not yet represent bloom-forming taxa, but the nutrient trajectory deserves monitoring. The large "unresolved" fraction (48.3%) of algal reads likely reflects inhibition from the complex sample matrix — DNA quality, not species absence.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Unresolved / vascular plant eDNA | 48.3% |
+| Cyanobacteria | 38.0% |
+| Diatoms | 12.1% |
+| Other | <2% |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Brook Trout, Blueback Herring, Alewife, American Eel | Native |
+| White Sucker, Yellow Perch, Tessellated Darter, Banded Killifish | Native |
+| *Micropterus* sp. — Bass | Non-native (introduced) |
+| *Lepomis* sp. — Sunfish | Mixed: Pumpkinseed native; Bluegill is a Midwestern introduction widespread in MA ponds |
+
+---
+
+---
+
+## Fresh Brook, Route 6 (Low Tide) | UH7L508D.1 | Aug 28, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.17 · 11 species | **Algae:** H<sub>a</sub> = 3.53 · 4,876 reads
+
+### Sentinel Signal
+
+Fourspine Stickleback 39.8% + Mummichog 35.8% = estuarine tidal capture point. Brook Trout absent — expected at a tidal sampling location. The algal community upstream suggests good water quality in the freshwater reach above.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Salinity (at sample point) | Brackish (tidal mixing) | Fourspine Stickleback + Mummichog dominant |
+| Upstream freshwater quality | Good | Cryptophytes + Synurophytes + Tribonema |
+| Temperature (upstream) | Cool | Synurophyte-dominated freshwater signal |
+| Brook Trout habitat (upstream) | Likely present | Soft-water, cool, clean algal assemblage above tidal limit |
+
+### Narrative
+
+Low-tide tidal capture point. Fourspine Stickleback + Mummichog = estuarine mixing zone — species that live at the edge of fresh and salt water and are drawn to this confluence. The fish community here describes the tidal gateway, not the upstream freshwater brook.
+
+The algal community, however, is reading the upstream freshwater reach: Cryptophytes (34.4%) + Synurophytes (12.6%) + Tribonema (Xanthophyte, 14.1%) is a soft-water, clean, cool-water algal assemblage. Tribonema is a filamentous yellow-green alga of clean, cool, oxygenated freshwater — its presence is a positive signal for upstream water quality. Do the existing assemblages indicate a reasonably healthful environment for Brook Trout? The algal evidence says yes: the soft-water chemistry upstream of the tidal limit is chemically compatible with salmonid habitat.
+
+**Brook Trout absent at the tidal capture point — expected.** Trout habitat, if present, is upstream in the freshwater reaches of Fresh Brook. This site is a gateway, not the destination.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Cryptophytes | 34.4% |
+| Diatoms | 19.9% |
+| Xanthophytes (*Tribonema*) | 14.1% |
+| Synurophytes | 12.6% |
+| Unresolved | 11.3% |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Fourspine Stickleback, Mummichog, American Eel | Native |
+| Golden Shiner | Native |
+
+---
+
+---
+
+## Fresh Brook Impoundment | TYKBU74R.1 | Aug 28, 2024
+
+
+**Fish:** H<sub>f</sub> = 0.95 · 4 species | **Algae:** H<sub>a</sub> = 2.07 · 7,227 reads
+
+### Sentinel Signal
+
+Bass 47.7% + Sunfish 43.1% = classic warm-water impoundment community. Synurophytes 68% = the water above this impoundment was once — and could again be — Brook Trout habitat. **Brook Trout: Absent** — expected in an impoundment.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm, thermally stratified | Impoundment + Bass/Sunfish community |
+| pH | Slightly acidic | Synurophytes dominant; *Nostoc linckia* bog indicator |
+| Phosphorus | Very low (oligotrophic) | Synurophyte 68% + *Nostoc* N-fixing (P-limited system) |
+| Brook Trout habitat | Not in the impoundment | Warm-water fish community; trout habitat requires removal of the water control structure |
+
+### Narrative
+
+Classic warm-water impoundment fish community — Bass + Sunfish + Eel. The algal signal is striking in its contrast: Synurophytes at 68% (*Mallomonas* + unresolved scaled chrysophytes) confirms soft, slightly acidic, very low-nutrient water chemistry. The water chemistry here is — or was — Brook Trout water. The impoundment has imposed warm-water thermal conditions on a system that the algae reveal is chemically oligotrophic and soft. *Nostoc linckia* (N-fixing colonial cyanobacterium of bog and nitrogen-limited wetland) at 6.7% is consistent with a kettle-hole pond on sandy Cape Cod glacial outwash.
+
+**No Brook Trout — expected.** Impoundments warm rapidly and thermally stratify; they support Bass and Sunfish, not salmonids. The dam has converted Brook Trout habitat into Bass habitat.
+
+**This is the terminal impoundment hiding a once-famous Brook Trout stream.** With removal of the water control structures, water temperature would drop, water level would recede to natural channel dimensions, tidal flow could restore to the freshwater-estuarine transition zone, and the soft-water chemistry already present in the system would be hospitable for Brook Trout re-introduction. The algal community says the water is ready; the dam is the obstacle.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Synurophytes (*Mallomonas* + unresolved) | 68.0% |
+| Cyanobacteria (*Nostoc linckia*) | 6.7% |
+| Other | <5% each |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| American Eel | Native |
+| *Lepomis* sp. — Sunfish | Pumpkinseed native; Bluegill introduced |
+| *Micropterus* sp. — Bass | Non-native (introduced/stocked) |
+
+---
+
+---
+
+## Orleans SW | F5LP8C1M.1 | Aug 28, 2024
+
+
+**Fish:** H<sub>f</sub> = 0.90 · 9 species | **Algae:** H<sub>a</sub> = 2.76 · 8,285 reads
+
+### Sentinel Signal
+
+Mummichog 54.5% + Atlantic Silverside 40.1% + *Ostreococcus tauri* 43% algal reads = **pure saltwater pond or tidal cove**. Marine reference point. Brook Trout: Absent — appropriate.
+
+### Narrative
+
+Orleans SW is a saltwater pond or tidal cove — the fish community leaves no ambiguity. Mummichog + Silverside + Fourspine Stickleback + Brevoortia + Flounder + Pipefish + Cunner is a coastal estuarine-to-nearshore marine community. *Ostreococcus tauri* at 43% of algal reads (a strictly marine picoeukaryote) with *Skeletonema pseudocostatum* (marine diatom) and *Synechococcus* confirms fully marine phytoplankton at this site.
+
+No Brook Trout — appropriate and expected for an open marine site.
+
+**Ecological value as a reference point:** This site is the marine end of the Cape Cod watershed gradient through which all diadromous fish must pass. Compare with Cohasset Narrows (JVB4307) for a parallel coastal marine baseline from the South Shore.
+
+What is notable here is the **absence of large predators**. No Striped Bass, Bluefish, or Mackerel detected — species that aggressively crash coastal baitfish assemblages like this Mummichog/Silverside community throughout the region. Whether this reflects their absence from this location on this day, or the presence of far richer baitfish concentrations drawing predators elsewhere, cannot be resolved from eDNA alone. The baitfish are here; the predators were not, on this day, at this location.
+
+### Algal Community
+
+*Ostreococcus tauri* 43% (marine picoeukaryote) + *Synechococcus* + *Skeletonema pseudocostatum* (marine diatom). Fully marine phytoplankton community.
+
+### Native vs. Non-Native
+
+All species detected are native to the New England coastal marine ecosystem.
+
+---
+
+---
+
+## Santuit River | C42JWLMM.1 | Aug 28, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.56 · 12 species | **Algae:** H<sub>a</sub> = 3.38 · 5,328 reads
+
+### Sentinel Signal
+
+Alewife 6.4% + Blueback Herring 0.5% = open anadromous corridor from Nantucket Sound. American Eel 42.6% = strong ocean connectivity. **Dolichospermum planctonicum 6.5% = HAB monitoring trigger.** Brook Trout absent.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm in August | Bass + Sunfish + Bullhead dominant; no salmonids |
+| Nutrients | Elevated | *Dolichospermum* N-fixing bloom-capable cyanobacterium |
+| Dissolved oxygen | At risk | *Dolichospermum* HAB potential; nighttime anoxia risk |
+| Brook Trout habitat | Not at this site in August | Warm-water community; nutrient loading |
+
+### Narrative
+
+Alewife (6.4%) and Blueback Herring (0.5%) confirm an open anadromous corridor from Nantucket Sound — the Santuit remains functionally connected to the coast. American Eel at 42.6% is the dominant species, consistent with a river that has sustained connectivity. No Brook Trout detected — the August fish community (Bass + Sunfish + Bullhead + Eel) is warm-water dominated.
+
+*Micropterus* sp. at 10.4% is non-native Bass (Largemouth or Smallmouth). *Lepomis* sp. at 27.4% is sunfish — Pumpkinseed is the native species but Bluegill is widely introduced in Barnstable County. Species-level confirmation requires electrofishing.
+
+**Cyanobacteria alert — *Dolichospermum planctonicum* at 6.5% of algal reads.** *Dolichospermum* is a filamentous, heterocyst-forming, nitrogen-fixing cyanobacterium associated with warm, nutrient-enriched water. Several *Dolichospermum* species produce cyanotoxins (anatoxin-a, microcystins). Its presence at 6.5% of total algal reads in August is a **monitoring trigger**: nutrient loading and summer temperatures are approaching conditions where bloom events become possible.
+
+Even without a visible surface bloom, dense cyanobacterial mats create nighttime anoxia through a straightforward mechanism: photosynthesis stops at dark, eliminating oxygen production, while bacterial respiration of algal biomass continues consuming dissolved oxygen. In dense blooms, CO2 increases, pH drops overnight, and dissolved oxygen can reach zero before dawn. Any remaining cold-water refugia supporting the Alewife staging or any Brook Trout habitat upstream are both at risk if a dissolved-oxygen crash event occurs.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Cyanobacteria (incl. *Dolichospermum* 6.5%) | ~30% |
+| Diatoms | ~25% |
+| Cryptophytes | ~20% |
+| Other | <10% each |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| American Eel, Alewife, Blueback Herring, Banded Killifish, Yellow Perch, Pickerel, White Sucker | Native |
+| *Ameiurus* sp. — Bullhead | Native (Brown Bullhead is native to New England) |
+| *Micropterus* sp. — Bass | Non-native |
+| *Lepomis* sp. | Mixed (see above) |
+| Golden Shiner | Native |
+
+---
+
+---
+
+## Quashnet River | 4JSG0AYS.1 | Aug 28, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.47 · 10 species | **Algae:** H<sub>a</sub> = 2.82 · 3,942 reads
+
+### Sentinel Signal
+
+Brook Trout 17.4% + Tessellated Darter 20.8% + Fourspine Stickleback 43.2% = three independent biological lines confirming a functioning, connected, cold-water system. **One of two conservation-priority Brook Trout sites in this batch.**
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Cold refugia | Brook Trout + Tessellated Darter in August |
+| pH | 5.5–7.0 | Synurophyte-dominated soft water |
+| Dissolved oxygen | High | Salmonid + Darter co-occurrence |
+| Phosphorus | Low | Synurophytes 38.7% |
+| Tidal connectivity | Open | Nanofrustulum shiloi 24.6% (estuarine diatom) |
+| Brook Trout habitat | Excellent | Three independent indicators in agreement |
+
+### Narrative
+
+The Quashnet River delivers the **second-strongest Brook Trout signal in this batch at 17.4%** — and the most ecologically coherent of all sites. Three independent biological indicators align in perfect agreement:
+
+- Brook Trout (17.4%) — cold-water salmonid, present in August
+- Tessellated Darter (20.8%) — requires clean gravel substrate and adequate dissolved oxygen
+- Fourspine Stickleback (43.2%) — confirms open tidal connectivity to the coast
+
+Three independent biological lines, three affirmative answers to the question: is this habitat functioning? The algal soft-water Synurophyte community (38.7%) independently confirms low-nutrient, clean chemistry appropriate for salmonids. *Nanofrustulum shiloi* in the diatom fraction confirms tidal influence at this sampling point — the corridor to the ocean is open.
+
+White Sucker (7.3%) — native generalist that co-evolved with Brook Trout in New England — adds further ecological coherence. American Eel (10.5%) confirms the anadromous corridor extends well into the watershed interior.
+
+**The Quashnet River is one of the two conservation-priority Brook Trout sites in this batch, alongside the Mashpee River.** Both sites deliver strong in-season (August) Brook Trout signals with corroborating ecological indicators.
+
+Note also Sawmill Swamp (1.0%, see above) — while lower in absolute abundance, Brook Trout in a headwater swamp in August is ecologically significant and represents a cold-water refugium worth independent protection.
+
+### Algal Community
+
+Synurophytes 38.7% + Diatoms 40.5% (*Nanofrustulum shiloi* 24.6% — estuarine diatom confirming tidal connectivity). H<sub>a</sub> = 2.82. Soft-water, tidal-influenced community at the freshwater-estuary interface.
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Brook Trout, Tessellated Darter, American Eel, White Sucker | Native |
+| Fourspine Stickleback | Native tidal indicator |
+
+---
+
+---
+
+## JVB3787 — Regional Summary: Brook Trout by Site (August 28, 2024)
+
+
+| Site | Region | Brook Trout | H<sub>f</sub> | Key Indicator |
+|---|---|---|---|---|
+| Mashpee River | Cape Cod | 25.9% — strong | 1.84 | Blueback Herring + Alewife + Tessellated Darter |
+| Quashnet River | Cape Cod | 17.4% — strong | 1.47 | Tessellated Darter + tidal connectivity |
+| Sawmill Brook — School St | Manchester MA | 2.5% — stable | 1.05 | Consistent across 2 seasons |
+| Sawmill Swamp | Manchester MA | 1.0% — refuge | 0.65 | Cold groundwater; clean algal community |
+| Third Herring Brook | Norwell/Hanover MA | trace | 0.44 | Warm-water dominated in August; resample |
+| Sawmill Brook — Fire Station | Manchester MA | trace | 0.23 | Tidal zone; upstream DNA |
+| Fresh Brook Impoundment | Cape Cod | Absent | 0.95 | Warm-water pond; dam blocks cold brook |
+| Fresh Brook Rt 6 LT | Cape Cod | Absent | 1.17 | Tidal capture point |
+| Santuit River | Cape Cod | Absent | 1.56 | *Dolichospermum* HAB flag |
+| Orleans SW | Cape Cod | Absent | 0.90 | Marine site |
+
+**Anadromous corridors open:** Mashpee River (Blueback Herring + Alewife), Santuit River (Alewife + Blueback Herring), Quashnet River (Eel + tidal diatoms), Sawmill Brook (Eel all reaches).
+
+---
+
+---
+
+## Cat Brook / Forest Landing — MA | NVN8LUTP.1 | Oct 14, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.27 · 5 species | **Algae:** H<sub>a</sub> = 4.36 · 34,673 reads
+
+### Sentinel Signal
+
+Bass 48.9% + Sunfish 24% = warm-water pond community. Dictyochophytes 33% (*Pseudopedinella elastica* dominant) = unusual marine/brackish flagellate signal. American Eel 10.6% = only ocean connectivity signal. **Brook Trout: Absent.** Algal anomaly requires explanation (see QC note below).
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature | Warm | Bass + Sunfish dominant; no salmonids |
+| Character | Pond or impoundment | Warm-water community; low H_f |
+| Tidal influence | Uncertain | Dictyochophyte signal unexpected at this distance from tidal water |
+| Brook Trout habitat | Not at this site | Warm-water pond community |
+
+### Narrative
+
+Cat Brook / Forest Landing in October is a warm-water pond community — Bass (49%), Sunfish (24%), Golden Shiner (15%), American Eel (10.6%). No Brook Trout. This appears to be a pond or impoundment outlet rather than a cold-water trout stream.
+
+The "Forest Landing" name is consistent with a historical boat access or loading point — a place where timber or goods were once transported by water. Today the site is reportedly miles from navigable water, which suggests significant hydrological change (dam impoundment, lowered water table, or changed land use) since the "landing" was active.
+
+**Algal QC note — Dictyochophytes.** The algal community is dominated by Dictyochophytes at 33.4% — primarily *Pseudopedinella elastica* (6.2%) plus multiple unresolved Dictyochophyceae entries. *Pseudopedinella elastica* is predominantly a marine/brackish flagellate, rarely documented in genuine freshwater systems. Its strong signal at a site reportedly 3+ miles from tidal waters behind a small dam is unexpected. Possible explanations:
+
+1. **Database false positive:** The 23S reference database may be assigning reads to *Pseudopedinella* incorrectly for a morphologically similar freshwater taxon.
+2. **Index bleed:** The Dictyochophyte signal may reflect low-level contamination from marine samples processed in the same library run.
+3. **Local tidal connectivity not apparent from site description:** If the dam is a tide gate or the system has more tidal exchange than the site description implies.
+
+This anomaly should be flagged with the sequencing laboratory for review. The multiple unresolved Dictyochophyceae entries (totaling 11%) in the top taxa add to the interpretive uncertainty. The freshwater desmids (*Zygnemophyceae*, 0.8%) and *Cryptomonas* suggest genuine freshwater at this site, making the marine signal difficult to reconcile. **Do not interpret the Dictyochophyte signal ecologically until QC is resolved.**
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Dictyochophytes (*Pseudopedinella elastica* + unresolved) | 33.4% |
+| Cryptophytes | 25.3% |
+| Unresolved | 19.3% |
+| Synurophytes | 11.9% |
+| Diatoms | 3.8% |
+| Cyanobacteria | 1.5% |
+| Green Algae | 1.5% |
+| Conjugating Green Algae (desmids) | 0.8% |
+| Euglenoids | 0.8% |
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| American Eel, Golden Shiner | Native |
+| *Micropterus* sp. — Bass | Non-native |
+| *Lepomis* sp. — Sunfish | Mixed (see above) |
+| *Ameiurus* sp. — Bullhead | Native |
+
+---
+
+---
+
+## Red Brook Road Pool, Low Tide — MA | 1YI0M1VI.1 | Sep 18, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.27 · 19 species | **Algae:** H<sub>a</sub> = 4.71 · 32,385 reads
+
+### Sentinel Signal
+
+Brook Trout 26.1% at a tidal road pool in September = **the strongest Brook Trout signal in JVB4307**. Spring-fed, cold-water stream. Fourspine Stickleback 50.4% + Mummichog 7.1% = sampling point is at the estuarine gateway; the Brook Trout eDNA is arriving from cold headwaters upstream. H<sub>a</sub> = 4.71 = highest algal Shannon diversity in this batch.
+
+### Inferred Water Chemistry
+
+| Parameter | Estimate | Basis |
+|---|---|---|
+| Temperature (upstream) | Cold — spring-fed | Brook Trout 26.1% in September |
+| pH | Circumneutral | Brook Trout + Eel community |
+| Dissolved oxygen | High (cold spring source) | Strong salmonid signal |
+| Tidal influence (at sample point) | Active | Stickleback 50% + Mummichog 7% |
+| Marine influx | Present at low tide | *Melosira tropica* + 40.5% unresolved (marine taxa) |
+| Brook Trout habitat | Excellent (upstream) | Strong in-season September signal |
+
+### Narrative
+
+Brook Trout at 26.1% — the strongest Brook Trout signal in JVB4307 and one of the strongest across all three new batches. Red Brook (Bournedale/Bourne, MA) is a spring-fed, cold-water stream historically known as a Brook Trout stream. The eDNA confirms it: Brook Trout DNA is present at high abundance at the tidal road pool in September.
+
+The sampling point is at low tide in a tidal pool reach. Fourspine Stickleback at 50.4% + Mummichog at 7.1% confirm brackish/estuarine conditions at the sampling point — but the Brook Trout are not occupying the estuary. The Brook Trout eDNA is arriving from cold freshwater headwaters upstream and accumulating at the tidal pool on the ebb tide. The volume of Brook Trout eDNA (26% of all fish reads) is consistent with a productive, established population upstream — not a stray individual.
+
+American Eel at 14.6% confirms bidirectional ocean connectivity through the tidal pool — the corridor is open for diadromous fish movement. Atlantic Silverside (0.8%) and Menhaden (0.3%) confirm marine tidal influence at low tide.
+
+**A note on life history form:** eDNA cannot distinguish whether any of these Brook Trout are resident freshwater fish or sea-run ("salter") individuals. MiFish 12S sees *Salvelinus fontinalis* DNA — it cannot resolve ecotype, residency, or migratory behavior. The strong signal at the tidal gateway is consistent with either a productive resident population whose eDNA accumulates in the tidal pool, or the presence of sea-run individuals using the tidal reach. Neither can be confirmed or excluded without electrofishing, tagging, or otolith data.
+
+**QC note:** Oncorhynchus gorbuscha (Pink Salmon) and O. keta (Chum Salmon) appear at near-zero read counts (<0.01%). Pacific salmon have no natural range in New England. These are almost certainly low-level sequencing artifacts or database misassignments — a common byproduct of high-throughput amplicon sequencing when Pacific salmon are present in the reference database. They should be removed as anomalies and not reported as ecological findings.
+
+**What this means for trout:** Red Brook holds Brook Trout. The spring-fed watershed is sustaining a population productive enough to be detectable at the tidal pool in September. This site warrants sustained monitoring and active protection of its cold-water spring sources.
+
+### Algal Community
+
+| Group | Rel% |
+|---|---|
+| Diatoms | 58.2% |
+| Unresolved (marine taxa on flood tide) | 40.5% |
+| Cryptophytes | 0.5% |
+| Vascular plant eDNA | 0.4% |
+| Eustigmatophytes | 0.2% |
+| Green Algae | 0.2% |
+| Cyanobacteria | 0.1% |
+
+*Top taxa: Melosira tropica 9.5% + 2.9% (warm estuarine diatom; tidal influence) · Bacillariophyceae (unresolved) 4.5% + 2.8%*
+
+*H<sub>a</sub> = 4.71 — highest algal Shannon diversity in JVB4307. The large unresolved fraction (40.5%) reflects marine phytoplankton entering on flood tides — taxa present in the water but absent from the freshwater-oriented 23S reference database.*
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Brook Trout | **Native — primary target species** |
+| Fourspine Stickleback, American Eel, Mummichog | Native |
+| Banded Killifish, Atlantic Silverside, Menhaden | Native |
+| *Oncorhynchus gorbuscha*, *O. keta* (Pink/Chum Salmon) | Artifact — remove; Pacific salmon are not native to New England |
+
+---
+
+---
+
+## Fresh Brook Area — Water near Fecal Deposit | S100177.1 | Date Unknown
+
+
+**Fish:** H<sub>f</sub> = 0.04 · 2 species · 57,855 fish reads
+
+### Sentinel Signal
+
+Eel 99.3% = Eel-dominated tidal or freshwater site. Fourspine Stickleback 0.7% = tidal/estuarine proximity confirmed. Major QC flag: Raccoon (*Procyon lotor*) DNA at 32,132 reads and Wild Boar (*Sus scrofa*) at 655 reads in the raw data — non-fish mammals dominating the library, indicating fecal or tissue contamination at the sample collection point.
+
+### Fish Community (Fish-only reads)
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Anguilla rostrata* — American Eel | 99.3% | Native catadromous — extreme dominance |
+| *Apeltes quadracus* — Fourspine Stickleback | 0.7% | Native tidal indicator |
+
+*Non-fish reads (filtered): Procyon lotor (Raccoon) 32,132 reads; Sus scrofa (Wild Boar/Domestic Pig) 655 reads.*
+
+### Narrative
+
+This sample was associated with a Fresh Brook fecal deposit investigation (file name: "Fresh Brook Feces"). The massive Raccoon DNA contamination (32,132 reads — 36% of the total raw library) indicates either a water sample collected in proximity to raccoon latrines or direct fecal material introduced to the sample. Wild boar/domestic pig DNA (655 reads) is a secondary contaminant.
+
+The fish signal — American Eel at 99.3% — is consistent with a tidal freshwater or estuarine site in the Fresh Brook system. Eel dominance of this magnitude typically indicates a tidal pool, pond outlet, or estuary where Eels concentrate. The Fourspine Stickleback trace confirms proximity to a tidal zone.
+
+Ecological interpretation is severely limited by the QC contamination. The Eel signal may be authentic; the species diversity (only 2 species) may reflect either a genuinely impoverished community or a contaminated library that suppressed less-abundant fish eDNA. **This sample should be flagged to the laboratory for QC review.** The Raccoon detection is noted as a non-target incidental and excluded from all ecological analysis.
+
+---
+
+---
+
+## Lower Road, Brewster, MA | ZVYQK9TP.1 | September 20, 2024
+
+
+**Fish:** H<sub>f</sub> = 1.16 · 9 species · 35,744 reads
+
+### Sentinel Signal
+
+Yellow Perch 49% + White Sucker 37% = warm, productive Cape Cod pond community in September. Tessellated Darter 0.1% trace = clean habitat indicator even at low abundance. No Brook Trout.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Perca flavescens* — Yellow Perch | 49.3% | Native |
+| *Catostomus commersonii* — White Sucker | 37.1% | Native |
+| *Lepomis auritus* — Redbreast Sunfish | 7.2% | Native |
+| *Anguilla rostrata* — American Eel | 2.6% | Native catadromous |
+| *Rhinichthys atratulus* — Blacknose Dace | 2.3% | Native |
+| *Notemigonus crysoleucas* — Golden Shiner | 0.6% | Native |
+| *Micropterus salmoides* — Largemouth Bass | 0.5% | **Non-native** |
+| *Etheostoma olmstedi* — Tessellated Darter | 0.1% | Native benthic indicator |
+| *Ameiurus natalis* — Yellow Bullhead | 0.1% | Native (southern; stocked in New England ponds) |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+Lower Road, Brewster is a Cape Cod pond or slow stream in September — Yellow Perch and White Sucker together at 86% define a warm, moderately productive freshwater body typical of the region's glacial kettle-hole ponds. The community is predominantly native and diverse for a warm-water system.
+
+The most ecologically significant signal is the Tessellated Darter (*Etheostoma olmstedi*) trace at 0.1%. Even at this abundance, the Tessellated Darter confirms clean, stable, oxygenated habitat conditions — it requires gravel substrate and adequate dissolved oxygen and does not persist in degraded water. Its presence is a positive indicator even in a warm-water pond community.
+
+Largemouth Bass (*Micropterus salmoides*, 0.5%) is non-native — introduced throughout Cape Cod ponds from the Midwest. Yellow Bullhead (*Ameiurus natalis*) is a southern/mid-Atlantic species stocked in some New England ponds; its presence here may reflect historic stocking.
+
+No Brook Trout. This site's warm-water character (Yellow Perch + Bass dominant in September) is not consistent with salmonid habitat. If Brook Trout exist in the Brewster area, they would be in cold spring-fed brooks, not this pond site.
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Yellow Perch, White Sucker, Redbreast Sunfish, American Eel, Blacknose Dace, Golden Shiner | Native |
+| Tessellated Darter | Native benthic indicator |
+| Yellow Bullhead | Native to SE US; stocked in New England |
+| Largemouth Bass | Non-native/introduced |
+
+---
+
+---
+
+## Below Lincoln Pool | KXUG2Y6J.1 | June 5, 2025
+
+
+**Fish:** H<sub>f</sub> = 0.84 · 3 species · 35,626 reads
+
+**Site:** Bournedale/Bourne area, MA (lat 41.725°N, -70.195°W). This location is in the Cape Cod Canal / Buzzards Bay watershed of southeastern Massachusetts. "Lincoln Pool" is a named pool on a local stream.
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Notemigonus crysoleucas* — Golden Shiner | 57.2% | Native |
+| *Anguilla rostrata* — American Eel | 37.7% | Native catadromous |
+| *Apeltes quadracus* — Fourspine Stickleback | 5.1% | Native tidal indicator |
+| **Brook Trout** | **Absent** | |
+
+Golden Shiner dominant (57%) + Eel (38%) + Fourspine Stickleback (5%) — a low-diversity community in June at a site near the tidal zone. The Fourspine Stickleback confirms tidal/estuarine connectivity at the sampling point. Very low species richness (3 species) may reflect a sampling point at the tidal margin rather than in the freshwater brook above. No Brook Trout.
+
+---
+
+---
+
+## Mashpee River | 099SCA28.1 | June 7, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.03 · 8 species · 56,618 reads
+
+### Sentinel Signal
+
+Alewife 66% + Blueback Herring 19% = the spring herring run in near-peak on the Mashpee River in June. Tessellated Darter 0.7% = resident clean-habitat population confirmed. Brook Trout: **Absent in June** — but see August 2024 (JVB3787) for 25.9% signal. The herring run masks the trout signal in summer.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Alosa pseudoharengus* — Alewife | 66.0% | Native anadromous — peak spring run |
+| *Alosa aestivalis* — Blueback Herring | 19.0% | Native anadromous — late spring run |
+| *Anguilla rostrata* — American Eel | 8.4% | Native catadromous |
+| *Catostomus commersonii* — White Sucker | 5.3% | Native |
+| *Etheostoma olmstedi* — Tessellated Darter | 0.7% | Native benthic indicator |
+| *Fundulus diaphanus* — Banded Killifish | 0.3% | Native |
+| *Lepomis macrochirus* — Bluegill | 0.3% | **Non-native** — introduced |
+| *Gasterosteus aculeatus* — Threespine Stickleback | 0.2% | Native |
+| **Brook Trout** | **Absent** | |
+
+### Narrative
+
+The Mashpee River in June is the spring herring run at peak: 85% of reads are Alewife (66%) + Blueback Herring (19%), with Eel (8%) and Sucker (5%) making up most of the remainder. When the anadromous run is at this intensity, it overwhelms all other signals in the eDNA library.
+
+**The critical comparison:** In August 2024 (JVB3787), Brook Trout registered 25.9% at the Mashpee River — the strongest Brook Trout signal in the entire JVB3787 batch. In June 2025, Brook Trout are absent from the eDNA signal. This is **not evidence that the Brook Trout population has collapsed between seasons**. It is evidence that during the peak herring run, the Alewife and Blueback Herring signal dominates the library so completely that a 25%-abundant species becomes undetectable. The herring run floods the water column with herring DNA; Brook Trout are a small fraction of the biomass during the run and their DNA signal is diluted below detection.
+
+This is an important methodological insight: Brook Trout abundance on the Mashpee River is not interpretable from June eDNA sampling. **August or September is the optimal window for Brook Trout detection on Cape Cod rivers**, after the herring run has subsided and Brook Trout summer thermal stress produces maximum DNA shedding from the cold-water refugia they occupy.
+
+Tessellated Darter at 0.7% — confirming that the resident clean-habitat community is still present in June despite the anadromous dominance. The Darter is a fish of the substrate, less affected by the water-column eDNA signal from the herring run above.
+
+Bluegill (*Lepomis macrochirus*, 0.3%) — non-native; introduced from the Midwest. Standard presence in Cape Cod ponds and connected streams.
+
+### Native vs. Non-Native
+
+| Species | Status |
+|---|---|
+| Alewife, Blueback Herring, American Eel, White Sucker, Tessellated Darter, Banded Killifish, Threespine Stickleback | Native |
+| Bluegill | Non-native — Midwest introduction |
+
+---
+
+---
+
+# 8. Saltwater / Marine — Open Coast Monitoring
+
+**Manchester-by-the-Sea, MA · June 2025**
+
+*Assay: Fish (MiFish 12S) only*
+
+This bucket contains marine and estuarine sampling — a conceptually distinct ecological domain from the freshwater work that constitutes the rest of this study. Marine fish communities are dominated by pelagic, estuarine, and reef-associated species rather than the anadromous and resident freshwater species found elsewhere. Currently one site (Proctor Point Dock, June 2025); this bucket is designed to grow as salt pond, harbor, and tidal creek sampling is added to the monitoring program.
+
+**Proctor Point Dock yielded 16 species** — the richest single-sample fish community in the entire dataset — including Atlantic Herring (19.4%), Atlantic Mackerel (13.7%), Hickory Shad (7.3%), Striped Bass (2.2%), Rock Gunnel (0.6%), and Cunner. This is an open-coast oceanic assemblage with no freshwater component.
+
+**Brook Trout status: Not applicable (marine site).**
+
+---
+
+## Proctor Point Dock, Manchester-by-the-Sea, MA | HVFHCKJQ.1 | June 5, 2025
+
+
+**Fish:** H<sub>f</sub> = 1.59 · 16 species · 46,128 reads
+
+### Sentinel Signal
+
+Atlantic Herring 19.4% + Atlantic Mackerel 13.7% + Hickory Shad 7.3% + Grubby Sculpin 1.4% + Rock Gunnel 0.6% = **the richest marine community in the dataset.** Manchester Harbor in June holds a full nearshore fish assemblage of extraordinary ecological diversity.
+
+### Fish Community
+
+| Species | Rel% | Note |
+|---|---|---|
+| *Fundulus heteroclitus* — Mummichog | 49.1% | Native estuarine |
+| *Clupea harengus* — Atlantic Herring | 19.4% | Native marine — spring migration |
+| *Scomber scombrus* — Atlantic Mackerel | 13.7% | Native marine — spring migration |
+| *Alosa mediocris* — Hickory Shad | 7.3% | Native anadromous |
+| *Morone saxatilis* — Striped Bass | 2.2% | Native anadromous predator |
+| *Notemigonus crysoleucas* — Golden Shiner | 1.7% | Native — freshwater runoff |
+| *Menidia menidia* — Atlantic Silverside | 1.5% | Native coastal marine |
+| *Anguilla rostrata* — American Eel | 1.5% | Native catadromous |
+| *Myoxocephalus aenaeas* — Grubby Sculpin | 1.4% | Native cold-water benthic marine |
+| *Pholis gunnellus* — Rock Gunnel | 0.6% | Native intertidal |
+| *Apeltes quadracus* — Fourspine Stickleback | 0.4% | Native tidal |
+| *Alosa aestivalis* — Blueback Herring | 0.4% | Native anadromous |
+| *Tautogolabrus adspersus* — Cunner | 0.4% | Native rocky reef |
+| *Morone americana* — White Perch | 0.3% | Native |
+| *Alosa pseudoharengus* — Alewife | 0.1% | Native anadromous |
+| *Lophius americanus* (trace) | trace | Marine artifact |
+| **Brook Trout** | **Absent** | Marine site |
+
+### Narrative
+
+Proctor Point Dock in Manchester Harbor in early June is the richest single-site fish community in this entire dataset — 16 species, H<sub>f</sub> = 1.59, including Atlantic Herring, Atlantic Mackerel, Hickory Shad, Grubby Sculpin, Rock Gunnel, and Cunner simultaneously present at a single dock.
+
+This is the spring marine migration in full expression. Atlantic Herring (19.4%) and Atlantic Mackerel (13.7%) are schooling pelagic species that pass through New England nearshore waters in their northward spring migration — their combined 33% signal from a dock sample confirms their presence in Manchester Harbor in early June, the peak of this migration window.
+
+**Hickory Shad (*Alosa mediocris*, 7.3%) is a conservation highlight.** Hickory Shad is an anadromous member of the herring family — less studied than Alewife and Blueback Herring but native to the Atlantic coast and ascends coastal rivers for spring spawning. Their eDNA at Manchester Harbor in June confirms that this species is present in the nearshore waters adjacent to the Sawmill Brook watershed — they may be staging in the harbor or ascending Sawmill Brook or adjacent streams.
+
+Grubby Sculpin (*Myoxocephalus aenaeas*, 1.4%) and Rock Gunnel (*Pholis gunnellus*, 0.6%) are cold-water nearshore benthic species — the Rocky Gulf of Maine character of Manchester's rocky subtidal zone is reflected in this community. Cunner (*Tautogolabrus adspersus*, 0.4%) is a wrasse of rocky reefs and kelp beds, confirming structured rocky habitat adjacent to the dock.
+
+Striped Bass (2.2%) are present as expected — following the spring baitfish concentration (Herring + Mackerel + Silverside) into the harbor.
+
+No Brook Trout — this is a marine dock site. The freshwater signal (Golden Shiner 1.7%, White Perch 0.3%) reflects freshwater input from Sawmill Brook and its tributaries draining into Manchester Harbor.
+
+### Native vs. Non-Native
+
+All 16 species detected are native to the New England marine/estuarine ecosystem.
+
+---
+
+---
+
+# Appendix: Cross-Batch Brook Trout & Atlantic Salmon Summary
+
+## Cross-Batch Brook Trout Summary
+
+
+| Batch | Site | Date | Brook Trout |
+|---|---|---|---|
+| JVB4307 | Red Brook Road Pool — MA | Sep 18, 2024 | **26.1% — strong** |
+| JVB3787 | Mashpee River — MA | Aug 28, 2024 | **25.9% — strong** |
+| JVB3787 | Quashnet River — MA | Aug 28, 2024 | **17.4% — strong** |
+| JVB5776 | Crotch Camp Brook — ME | Nov 2023 | ~16.9% — strong |
+| JVB3787 | Sawmill Brook — School St (Manchester MA) | Aug 28, 2024 | 2.5% (stable, 2 seasons) |
+| JVB5776 | West Branch Narraguagus — ME | Nov 2023 | ~1.9% |
+| JVB3787 | Sawmill Swamp (Manchester MA) | Aug 28, 2024 | 1.0% — cold-water refuge |
+| JVB3787 | Third Herring Brook (Norwell/Hanover MA) | Aug 28, 2024 | trace — resample needed |
+| JVB3787 | Sawmill Brook — Fire Station (Manchester MA) | Aug 28, 2024 | trace — tidal zone |
+| JVB3759 | Ellsworth Dam — ME | Jul 2024 | Absent — dam pool |
+| JVB4307 | Ellsworth Dam (all sites) | Sep 2024 | Absent — dam pool |
+| JVB4307 | Machias River Above Falls | Sep 12, 2024 | Absent — timing; resample Oct/Nov |
+| JVB4307 | Cat Brook / Forest Landing | Oct 14, 2024 | Absent — warm-water pond |
+
+The four strongest Brook Trout signals — Red Brook (26.1%), Mashpee River (25.9%), Quashnet River (17.4%), Crotch Camp Brook (16.9%) — are all in-season detections during the hardest months for cold-water fish: August and September. These are not winter detections in easy conditions; they are results that confirm year-round cold-water refugia and resident populations that are surviving summer thermal stress.
+
+---
+
+*All relative abundances are read-normalized within each sample. Non-aquatic incidentals (amphibians, reptiles, birds, mammals) are excluded from fish community analysis. Fish percentages are re-normalized to fish-only reads with non-fish vertebrates removed.*
+
+
+## Cross-Batch Summary — Brook Trout and Atlantic Salmon
+
+
+## Brook Trout Status — All Batches
+
+
+| Batch | Site | Date | Brook Trout |
+|---|---|---|---|
+| JVB4307 | Red Brook Road Pool — MA | Sep 18, 2024 | **26.1% — strong** |
+| JVB3787 | Mashpee River — MA | Aug 28, 2024 | **25.9% — strong** |
+| JVB3787 | Quashnet River — MA | Aug 28, 2024 | **17.4% — strong** |
+| JVB5776 | Crotch Camp Brook — ME | Nov 2023 | ~16.9% — strong |
+| JVB3787 | Sawmill Brook — School St (Manchester MA) | Aug 28, 2024 | 2.5% — stable |
+| JVB5776 | Sawmill Brook — School St (Manchester MA) | Nov 2023 | 2.5% — stable |
+| JVB5776 | West Branch Narraguagus — ME | Nov 2023 | ~1.9% |
+| JVB3787 | Sawmill Swamp (Manchester MA) | Aug 28, 2024 | 1.0% — cold-water refuge |
+| JVB3787 | Third Herring Brook (Norwell/Hanover MA) | Aug 28, 2024 | trace — resample needed |
+| JVB3787 | Sawmill Brook — Fire Station (Manchester MA) | Aug 28, 2024 | trace — tidal zone |
+| JVB3759 | Ellsworth Dam — ME | Jul 2024 | Absent — dam pool |
+| JVB4307 | Ellsworth Dam (all sites) — ME | Sep 2024 | Absent — dam pool |
+| JVB4307 | Machias River Above Falls — ME | Sep 12, 2024 | Absent — timing |
+| JVB4307 | Cat Brook / Forest Landing — MA | Oct 14, 2024 | Absent — warm-water pond |
+| JVB3988 | All five sites — ME | Oct 2024 | Absent — mainstem/run sites |
+| JVB4678 | Brewster MA, MBTS, Manchester MA | Sep–Oct 2024 | Absent |
+| JVB4846 | Orange River + Union River + MBTS | Mar–May 2025 | Absent |
+| JVB4981 | Union River, MBTS, Cape Cod, Mashpee | May–Jun 2025 | Absent — herring run masking |
+| JVB5403 | East Machias, Orange River — ME | Jun–Aug 2025 | Absent |
+
+**The pattern is clear.** Brook Trout appear in the eDNA record only at specific site types: spring-fed Cape Cod rivers (Mashpee, Quashnet, Red Brook) and cold Maine headwater streams (Crotch Camp Brook, West Branch Narraguagus, Sawmill Brook). They are consistently absent from: dam pools, mainstem runs during anadromous run periods, warm-water ponds and lakes, and Maine estuarine sites. This is not a surprise — it is ecological confirmation that Brook Trout occupy the cold, clean headwaters, not the larger systems. The June Mashpee absence is a methodological lesson: herring runs mask the trout signal, not eliminate the population.
+
+
+## Atlantic Salmon — Confirmed Sites
+
+
+| Batch | Site | Date | Signal | Significance |
+|---|---|---|---|---|
+| JVB3988 | Northern Stream — ME | Oct 2024 | **1.1%** | Spawning-run salmon in natal tributary |
+| JVB3988 | Richardson Stream — ME | Oct 2024 | **1.7%** | Spawning-run salmon in natal tributary |
+| JVB4846 | Union River Bridge — ME | May 3, 2025 | **0.5%** | Spring migration with Alewife run |
+| JVB5776 | Narraguagus Rt 193 — ME | Nov 2023 | trace | Fall run signal |
+
+**Atlantic Salmon confirmed at three Maine sites across multiple batches.** Northern Stream and Richardson Stream detections in October are spawning-run fish in small tributaries — these sites should be formally registered with NOAA Fisheries and Maine DMR as confirmed Atlantic Salmon spawning habitat.
+
+
+## Seasonal eDNA Calendar — Union River / Ellsworth Dam
+
+
+| Month | Site | Alewife % | Key Finding |
+|---|---|---|---|
+| May 3 (JVB4846) | Union River Bridge | 85.8% | Spring run beginning; Atlantic Salmon 0.5% |
+| May 21 (JVB4981) | Rooster Bros (below dam) | 97.2% | Spring run at maximum intensity |
+| May 31 (JVB4981) | Rooster Bros (below dam) | 87.7% | Run declining from peak |
+| Jul 2024 (JVB3759) | Ellsworth Dam pool | 39.7% | Spring run juveniles + residual DNA |
+| Sep 2024 (JVB4307) | Ellsworth Dam face | 71.8% | Fall run aggregating at barrier |
+| Sep 2024 (JVB4307) | Rooster Bros (below dam) | 81.7% | Fall run massed below dam |
+| Sep 2024 (JVB4307) | 100 m above dam | 35.6% | Above barrier (trap-and-truck?) |
+
+This table documents the Union River Alewife run from spring peak (97.2%) through summer residency (40%) to fall staging (72–82%) — a full seasonal eDNA portrait of the most important anadromous run in the project's study area.
+
+---
+
+*All relative abundances are re-normalized to fish-only reads. Non-aquatic incidentals (birds, mammals, reptiles, amphibians) are filtered from all analysis. These six batches contain MiFish 12S rRNA (fish) data only; no 23S rRNA algal panel data is available.*
+
+

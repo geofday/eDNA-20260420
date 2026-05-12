@@ -1,0 +1,17 @@
+FAIL: Shannon new text
+FAIL: Read counts GONE
+OK: Overview heading
+OK: BT/salmon summary
+OK: Status simplified
+OK: Rt 193 first
+OK: West before Crotch
+OK: Crotch before UNT
+OK: UNT before McCoy
+OK: BT Absent McCoy
+OK: BT Present West
+OK: McCoy Note
+OK: Worcester presumably
+OK: Brook Trout 16.9
+OK: Footnote Salvelinus
+OK: West Branch sentinel
+OK: Summary table

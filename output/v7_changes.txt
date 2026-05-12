@@ -1,0 +1,49 @@
+Insertions: 41, Deletions: 10
+[INS 1]: Shannon diversity was calculated separately for fish communities, H(f), and algal communities, H(a), using the Shannon index: H = −Σ pᵢ ln(pᵢ), where pᵢ is the proportion of total accepted reads assigned to taxon i within a sample. The index increases when more taxa are detected and when read counts are more evenly distributed among taxa. In this eDNA context, Shannon diversity should be interpreted as a standardized measure of detected community diversity based on relative read representation, not as a direct census of organism abundance. Higher values may indicate a more diverse and evenly represented biological signal, but interpretation as environmental quality requires comparison among sites, seasons, controls, and supporting ecological evidence.
+[INS 2]: Shannon diversity is a widely used community-diversity metric that can support ecological interpretation when compared across samples and paired with other evidence.
+[INS 3]: REMOVE PARAGRAPH !!
+[INS 4]: –
+[INS 5]: Overview
+[INS 7]: Here, two out of five locations have brook trout DNA and salmon
+[INS 8]: DNA
+[INS 9]: is
+[INS 10]: found in one location.
+[INS 11]: are analyzed using
+[INS 12]: .
+[INS 13]: Brook Trout status: Detected. Atlantic Salmon status: Not detected in this batch.Detected
+[INS 15]: Samples need to be re
+[INS 16]: ordered and
+[INS 17]: shown in the order of the summary as below.
+[INS 18]: Start here with the actual summary!!
+[INS 19]: Fish: 1 species, H(f) = 0.00 | Algae: 91 ESVs, H(a) = 3.28 | Recorded pH: 3.54Brook Trout Absent
+[INS 20]: Notes: p
+[INS 21]: H at 3.54 is the most acidic sample in this study.  It may also be
+[INS 22]: among the most acidic waters in the state.
+[INS 23]: presumably the
+[INS 24]: e
+[INS 25]: operation.
+[INS 26]: presumably
+[INS 27]: Brook Trout Present
+[INS 28]: Brook
+[INS 29]: Synura optimal rangepH has been read at
+[INS 30]: all
+[INS 31]: location
+[INS 32]: s
+[INS 33]: and the data should be here – what other edits have yo
+[INS 34]: u missed??
+[INS 35]: pH (recorded) needs to be compared with pH (inferred) at every location
+[INS 37]: Brook
+[INS 38]: B
+[INS 39]: rook
+[INS 40]: More taxanomic hand waving – put this in footnotes.
+[INS 41]: Brook Trout Absent
+[DEL 1]: Shannon Diversity is used throughout: H(f) for fish, H(a) for algae. The formula −Σ p·ln p sums, for each species, its proportional abundance (p) multiplied by its natural log — so a community with many species each contributing similar read counts scores higher than one dominated by a single species. A higher value means more even distribution of reads across species — a proxy for ecological complexity and environmental quality.
+[DEL 2]: Read counts are proportional, not absolute — they are literal counts of distinct DNA molecules in the sample. A species at 1% with 10,000 total reads (100 reads) is more reliable than a species at 1% with 500 total reads (5 reads).
+[DEL 3]: carry
+[DEL 4]: data — the most complete ecological dataset in the study.
+[DEL 5]: Not detected in this batch.
+[DEL 6]: identified
+[DEL 7]: ing.
+[DEL 8]: sp.
+[DEL 9]: sp
+[DEL 10]: sp

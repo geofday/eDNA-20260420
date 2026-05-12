@@ -1,0 +1,33 @@
+[P10]: [-Shannon Diversity is used throughout: H(f) for fish, H(a) for algae. The formula −Σ p·ln p sums, for each species, its proportional abundance (p) multiplied by its natural log — so a community with many species each contributing similar read counts scores higher than one dominated by a single species. A higher value means more even distribution of reads across species — a proxy for ecological complexity and environmental quality.-][+Shannon diversity was calculated separately for fish communities, H(f), and algal communities, H(a), using the Shannon index: H = −Σ pᵢ ln(pᵢ), where pᵢ is the proportion of total accepted reads assigned to taxon i within a sample. The index increases when more taxa are detected and when read counts are more evenly distributed among taxa. In this eDNA context, Shannon diversity should be interpreted as a standardized measure of detected community diversity based on relative read representation, not as a direct census of organism abundance. Higher values may indicate a more diverse and evenly represented biological signal, but interpretation as environmental quality requires comparison among sites, seasons, controls, and supporting ecological evidence.  +][+Shannon diversity is a widely used community-diversity metric that can support ecological interpretation when compared across samples and paired with other evidence.+]
+
+[P12]: [+REMOVE PARAGRAPH !! +][-Read counts are proportional, not absolute — they are literal counts of distinct DNA molecules in the sample. A species at 1% with 10,000 total reads (100 reads) is more reliable than a species at 1% with 500 total reads (5 reads).-]
+
+[P15]: 1. Maine — Narraguagus Watershed[+ – +][+Overview+][+ +]
+
+[P18]: The Narraguagus River drains the remote forests of Washington County, Maine — one of the least-developed watersheds in the northeastern United States. This cluster of five sites captures the upper and middle reaches of the West Branch and its tributaries, sampled in November 2023 at leaf-off when eDNA from other taxa is minimal and the fish signal is clearest. The Narraguagus is part of federally designated critical habitat for the Gulf of Maine Distinct Population Segment (DPS) of Atlantic Salmon, and it supports wild Brook Trout in its cold headwater tributaries. [+Here, two out of five locations have brook trout DNA and salmon +][+DNA +][+is +][+found in one location. +]All five sites [+are analyzed using +][-carry -]both fish (MiFish 12S) and algal (23S rRNA)[+. +][- data — the most complete ecological dataset in the study. -]Algal community composition provides independent inference of water temperature, pH, dissolved oxygen, and nutrient status, substantially deepening the ecological interpretation beyond fish alone.
+
+[P19]: [+Brook Trout status: Detected. Atlantic Salmon status: Detected+]
+
+[P20]: [+Samples need to be re+][+ordered and +][+shown in the order of the summary as below.+][+Start here with the actual summary!!+]
+
+[P23]: [+Fish: 1 species, H(f) = 0.00 | Algae: 91 ESVs, H(a) = 3.28 | Recorded pH: 3.54Brook Trout Absent+]
+
+[P24]: [+Notes: p+][+H at 3.54 is the most acidic sample in this study.  It may also be +][+among the most acidic waters in the state.+]
+
+[P56]: The source of impairment at McCoy Brook is[+ presumably the +][- identified-]: Worcester Peat Min[+e +][+operation.+][-ing.-]
+
+[P57]: An active industrial peat extraction operation upstream — Worcester Peat Mining — has been operating for well over a decade and is [+presumably +]the primary anthropogenic driver of the pH 3.54 condition documented here. This is not a speculative attribution. Peat mining directly exposes and destabilizes deep peat deposits, releasing sulfuric compounds, organic acids (fulvic and humic acid), and iron-sulfide oxidation products into drainage water. When disturbed peat is exposed to oxygen, pyrite (FeS₂) within the peat oxidizes to sulfuric acid — a process that continues for years and is extremely difficult to arrest once initiated. The resulting drainage is strongly acidic, metal-laden, and persistent.
+
+[P63]: Fish: 9 species, H(f) = 1.69 | Algae: 76 ESVs, H(a) = 2.30[+Brook Trout Present+]
+
+[P65]: Synura at 74% dominance + [+Brook +]Trout[- sp. -]present = phosphorus-limited oligotrophic soft-water system, not impaired but at the nutrient floor. The Synura says dissolved phosphorus is near or below 10 μg/L and the water is clean and lean; the trout says it is still livable.
+
+[P72]: [+Synura optimal rangepH has been read at +][+all +][+location+][+s+][+ and the data should be here – what other edits have yo+][+u missed??+]
+
+[P74]: [+pH (recorded) needs to be compared with pH (inferred) at every location+]
+
+[P92]: The fish community is moderate and ecologically coherent for this habitat type: Ninespine Stickleback (35.2%), Creek Chub (25.0%), [+Brook +]Trout[- sp-]. (16.9%), Redbreast Sunfish (9.9%). Trout presence is the key signal — salmonids require cool, well-oxygenated, clean water. Their detection here confirms the system is not lethal; it is simply lean. H(f) = 1.69 with 9 species is consistent with a small, phosphorus-limited woodland brook: when TP is at or below 10 μg/L, algal growth is slow, invertebrate biomass is low, and the fish community supported above it is correspondingly modest in size and diversity.
+
+[P94]: All detected fish are native to Maine. Finescale Dace and Ninespine Stickleback, though not detected here at high abundance, are native soft-water specialists. The [+B+][+rook +]Trout[- sp-]. signal reflects Salvelinus spp. at 100% match — the MiFish 12S locus does not distinguish Brook Trout (S. fontinalis) from Lake Trout (S. namaycush) or Arctic Char (S. alpinus) at this resolution. Geographic context — small, cold, phosphorus-limited headwater tributary in Washington County, Maine — strongly supports Brook Trout. Lake Trout prefer deep lakes; Arctic Char is documented in only a handful of Maine coldwater ponds. Reported throughout as Trout sp.[+  More taxanomic hand waving – put this in footnotes.+]
+
+[P99]: Sentinel Signal[+Brook Trout Absent+]

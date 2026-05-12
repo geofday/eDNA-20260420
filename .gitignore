@@ -1,0 +1,13 @@
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Microsoft Word / Office temp lock files
+~$*
+*.tmp
+
+# Logs
+*.log
