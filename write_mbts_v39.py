@@ -43,6 +43,9 @@ SUBS = [
     (r'Micropterus — Bass',             'Largemouth Bass (Micropterus salmoides)'),
     (r'Non-native — competing with Brook Trout',
      'Largemouth Bass — non-native in this watershed context; competes with Brook Trout'),
+    # Rename L Mackintosh Pond → L Mackintosh Pond
+    (r'Second [Pp]ond(?!\s*MBTS)',      'L Mackintosh Pond'),
+    (r'Second [Pp]ond',                 'L Mackintosh Pond'),
     # Update report title version
     (r'MBTS_eDNA_Report_v38',           'MBTS_eDNA_Report_v39'),
     (r'v38',                            'v39'),
@@ -100,7 +103,7 @@ def patch_salmo_mbts3(doc):
 patch_salmo_mbts3(doc)
 
 # ── 3. SECOND POND — ADD COMMON CARP ─────────────────────────────────────────
-# Insert a new paragraph after the Alewife sentence in the Second Pond narrative.
+# Insert a new paragraph after the Alewife sentence in the L Mackintosh Pond narrative.
 
 def insert_after_para(doc, match_text, new_text, style='Body Text'):
     for i, para in enumerate(doc.paragraphs):
@@ -129,7 +132,7 @@ def insert_after_para(doc, match_text, new_text, style='Body Text'):
 
 CARP_TEXT = (
     'Common Carp (Cyprinus carpio) — BLAST-confirmed at 4,093 reads (~30% of fish reads at this site) — '
-    'is the most significant new finding at Second Pond from the full BLAST run. Carp were '
+    'is the most significant new finding at L Mackintosh Pond from the full BLAST run. Carp were '
     'previously unresolved (species=None) and excluded from the v38 community analysis. Their '
     'identification substantially revises the site picture: Alewife is no longer dominant at 63% '
     'but closer to 44% once Carp reads are included in the denominator. Carp are an introduced '
@@ -213,7 +216,7 @@ print('  - Bullhead sp. → Brown Bullhead (Ameiurus nebulosus) throughout')
 print('  - Cottidae spp. → Sculpin (Cottus sp.) throughout')
 print('  - Brook Trout (Salvelinus spp.) → Brook Trout (Salvelinus fontinalis) throughout')
 print('  - MBTS #3: Salmo spp. → Brown Trout (Salmo trutta) confirmed, non-native flagged')
-print('  - Second Pond: Common Carp (30%) + Fathead Minnow new paragraphs added')
+print('  - L Mackintosh Pond: Common Carp (30%) + Fathead Minnow new paragraphs added')
 print('  - Fire Station: Bluefish (Pomatomus saltator) note added')
 print('  - School St: Striped Killifish (Fundulus majalis) note added')
 print('  - T1 note: Lepomis updated to reflect BLAST resolution')

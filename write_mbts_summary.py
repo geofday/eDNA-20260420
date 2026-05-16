@@ -65,7 +65,7 @@ body(doc,
     'Confirmed at 4 of 14 sites. Strongest signal at Below School St (4.6% of fish reads, '
     'Nov 2025 — spawning season) and Sawmill Brook at School St (2.5%, Aug 2024). Sawmill '
     'Swamp (1.0%, Aug 2024) and Below Lincoln Pool (0.6%, Jun 2025) are also positive. '
-    'Brook Trout were absent from Upper Sawmill, Golf Course reach, Cat Brook, Second Pond, '
+    'Brook Trout were absent from Upper Sawmill, Golf Course reach, Cat Brook, L Mackintosh Pond, '
     'Atwater, MBTS #3, and Proctor Point in all samples to date. The Nov 2025 absence at '
     'Upper Sawmill during spawning season is a flag — this reach should be a functional '
     'spawning corridor. BLAST confirms all positive detections to Salvelinus fontinalis.')
@@ -73,7 +73,7 @@ body(doc,
 # ── 2. EUTROPHICATION ─────────────────────────────────────────────────────────
 heading(doc, '2.  Eutrophication', size=10, color=(0,70,127))
 body(doc,
-    'Second Pond is the single most degraded site in the watershed and the only eutrophication '
+    'L Mackintosh Pond is the single most degraded site in the watershed and the only eutrophication '
     'signal. Common Carp (37% of fish reads, BLAST-confirmed) and Fathead Minnow (~6%) are '
     'introduced species whose presence was unknown before BLAST. Carp bottom-rooting releases '
     'phosphorus from sediment; the 23S algal community confirms the result: Stephanodiscus '
@@ -82,7 +82,7 @@ body(doc,
     'included in the denominator) remains present but is no longer ecologically dominant. '
     'The main-stem Sawmill Brook community (Eunotia naegelii, Mallomonas, Dinobryon, '
     'Chrysochromulina) is oligotrophic throughout — the nutrient problem is geographically '
-    'contained to Second Pond but ecologically critical given its headwater position feeding Cat Brook.')
+    'contained to L Mackintosh Pond but ecologically critical given its headwater position feeding Cat Brook.')
 
 # ── 3. pH ─────────────────────────────────────────────────────────────────────
 heading(doc, '3.  pH  (Vivosun meter, two-point calibration, ±0.2 pH unit)', size=10, color=(0,70,127))
@@ -96,7 +96,7 @@ body(doc,
     'winter baseline, full tolerance. Atwater: pH 6.15 / 62.7°F (Jun 2025, co-collected with '
     'eDNA) — low end of optimal, borderline for spawning habitat; pH 6.47 / 75.9°F (Jul 2025) '
     '— acute thermal stress, above short-term BT lethal threshold; pH 6.87 / 36.8°F (Nov 2025). '
-    'No pH data for Second Pond, Cat Brook, Golf Course, Elm Street, MBTS #3, Sawmill Swamp, '
+    'No pH data for L Mackintosh Pond, Cat Brook, Golf Course, Elm Street, MBTS #3, Sawmill Swamp, '
     'or Fire Station — priority gap sites for future Sonde or grab-sample measurement.')
 
 # ── 4. SENTINEL SPECIES ───────────────────────────────────────────────────────
@@ -116,10 +116,10 @@ bullet(doc,
     'Smallmouth Bass (Micropterus dolomieu) — Proctor Point (46%, BLAST-confirmed first detection '
     'in watershed). Expanding range; direct Brook Trout competitor in cold reaches.')
 bullet(doc,
-    'Common Carp (Cyprinus carpio) — Second Pond only (37%). Driving eutrophication. '
+    'Common Carp (Cyprinus carpio) — L Mackintosh Pond only (37%). Driving eutrophication. '
     'Flag to MassWildlife.')
 bullet(doc,
-    'Fathead Minnow (Pimephales promelas) — Second Pond (~6%). Bait-bucket introduction; '
+    'Fathead Minnow (Pimephales promelas) — L Mackintosh Pond (~6%). Bait-bucket introduction; '
     'second invasive species at this site.')
 bullet(doc,
     'Bluefish (Pomatomus saltator) — Fire Station tidal limit (167 reads, Aug). Marine predator; '

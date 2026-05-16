@@ -67,6 +67,9 @@ SUBS = [
     # Callitriche obtusangula → Callitriche sp. (reference database artifact — see note below)
     (r'Callitriche obtusangula',  'Callitriche sp.'),
 
+    # Rename L Mackintosh Pond → L Mackintosh Pond
+    (r'Second [Pp]ond',           'L Mackintosh Pond'),
+
     # Version bump
     (r'MBTS_eDNA_Report_v39',     'MBTS_eDNA_Report_v40'),
     (r'\bv39\b',                  'v40'),
@@ -128,7 +131,7 @@ if not anchored:
 # Veerella sp. (was Aureoumbra lagunensis, 18.2%) — flagellate normally estuarine/coastal.
 # Insert after the Carp paragraph added in v39.
 STEPHANODISCUS_TEXT = (
-    'Algal BLAST update — Second Pond: Stephanodiscus minutulus dominates the 23S signal '
+    'Algal BLAST update — L Mackintosh Pond: Stephanodiscus minutulus dominates the 23S signal '
     '(22.5% of reads, ~4,500 reads). Stephanodiscus is a classical eutrophic indicator '
     'diatom — it thrives where dissolved phosphorus is elevated and the water column is '
     'turbid. Stephanodiscus niagarae is also present. This eutrophication signature '
@@ -138,7 +141,7 @@ STEPHANODISCUS_TEXT = (
     'lagunensis, 18.2%) is a flagellate most often recorded in estuarine and coastal '
     'settings; its repeated detection in a pond context warrants continued monitoring. '
     'The combined signal — eutrophic diatoms, invasive Carp, and Fathead Minnow — '
-    'presents a consistent and serious habitat degradation picture at Second Pond.'
+    'presents a consistent and serious habitat degradation picture at L Mackintosh Pond.'
 )
 
 anchored = insert_after_para(
@@ -148,7 +151,7 @@ anchored = insert_after_para(
     'Body Text'
 )
 if not anchored:
-    print('WARNING: Second Pond (Stephanodiscus) anchor not found')
+    print('WARNING: L Mackintosh Pond (Stephanodiscus) anchor not found')
 
 # ── 4. FIRE STATION: CONFIRMED TIDAL DIATOM ASSEMBLAGE ───────────────────────
 # BLAST corrects Nanofrustulum shiloi → Fragilaria construens (~9% combined);
@@ -364,7 +367,7 @@ print('  - Cyclotella cryptica → Stephanocyclus meneghinianus')
 print('  - Skeletonema pseudocostatum → Skeletonema menzelii')
 print('  - Ostreococcus tauri → Ostreococcus sp.')
 print('  - Elm Street: tidal Halamphora interpretation retracted; Eunotia = freshwater signal')
-print('  - Second Pond: Stephanodiscus eutrophication + Veerella note added')
+print('  - L Mackintosh Pond: Stephanodiscus eutrophication + Veerella note added')
 print('  - Fire Station: Fragilaria construens + Entomoneis umbratica tidal suite confirmed')
 print('  - School St (UTEVR3WT.1): Teleaulax gracilis confirmed; Dinophysis sp. trace flagged')
 print('  - School St (UG79PNJS.1): Freshwater Acanthoceras/Dinobryon; Fontinalis moss detected')
