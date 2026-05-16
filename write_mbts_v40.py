@@ -64,6 +64,9 @@ SUBS = [
     # Ostreococcus tauri → Ostreococcus sp. (species uncertain at 23S resolution)
     (r'Ostreococcus tauri',       'Ostreococcus sp.'),
 
+    # Callitriche obtusangula → Callitriche sp. (reference database artifact — see note below)
+    (r'Callitriche obtusangula',  'Callitriche sp.'),
+
     # Version bump
     (r'MBTS_eDNA_Report_v39',     'MBTS_eDNA_Report_v40'),
     (r'\bv39\b',                  'v40'),
@@ -286,6 +289,66 @@ anchored = insert_after_para(
 if not anchored:
     print('WARNING: School St freshwater algae anchor not found')
 
+# ── 9. CALLITRICHE — WATER STARWORT DETECTIONS ───────────────────────────────
+# Visually confirmed at site(s); eDNA confirms genus at Below School St (208 reads),
+# Upper Sawmill (142 reads), Lower Golf Course (32 reads).
+# BLAST returns C. obtusangula because it has a published genome in GenBank;
+# C. stagnalis has no deposited chloroplast genome so cannot win the BLAST race.
+# C. stagnalis is the characteristic water starwort of New England soft-water streams
+# and is the ecologically correct identification given habitat and visual ID.
+# n_species = 100 on most ESVs confirms the barcode does not resolve to species.
+
+CALLITRICHE_NOTE = (
+    'Water starwort note: Callitriche sp. (likely Callitriche stagnalis, common water '
+    'starwort) is confirmed at this site by 23S chloroplast eDNA. The genus is '
+    'unambiguous; BLAST returns C. obtusangula only because that species has a published '
+    'chloroplast genome in GenBank while C. stagnalis does not — the barcode cannot '
+    'distinguish between Callitriche species (n_species = 100 at equivalent identity). '
+    'C. stagnalis is the characteristic water starwort of New England soft-water streams '
+    'and is consistent with the visual identification at this site. Its presence indicates '
+    'submerged or emergent aquatic vegetation in the stream channel — positive habitat '
+    'structure for macroinvertebrates and juvenile fish.'
+)
+
+CALLITRICHE_GOLF = (
+    'Water starwort note: Callitriche sp. (likely C. stagnalis) is also detected via 23S '
+    'chloroplast eDNA at the lower golf course reach (32 reads) — lower read depth than '
+    'Below School St and Upper Sawmill but consistent with plant material in stream contact. '
+    'See those site entries for a note on the BLAST species call limitation.'
+)
+
+# Below School St — strongest signal (208 reads)
+anchored = insert_after_para(
+    doc,
+    'Below School St is a functioning tidal transition ecosystem',
+    CALLITRICHE_NOTE,
+    'Body Text'
+)
+if not anchored:
+    anchored = insert_after_para(doc, 'Below School St | JVB5776', CALLITRICHE_NOTE, 'Body Text')
+if not anchored:
+    print('WARNING: Callitriche / Below School St anchor not found')
+
+# Upper Sawmill (142 reads)
+anchored = insert_after_para(
+    doc,
+    'Upper Sawmill | JVB5776 / CVVU52A9.1',
+    CALLITRICHE_NOTE,
+    'Body Text'
+)
+if not anchored:
+    print('WARNING: Callitriche / Upper Sawmill anchor not found')
+
+# Lower Golf Course (32 reads) — append brief note after stonewort paragraph
+anchored = insert_after_para(
+    doc,
+    'oligotrophic, clear-water conditions and Brook Trout connectivity at this reach',
+    CALLITRICHE_GOLF,
+    'Body Text'
+)
+if not anchored:
+    print('WARNING: Callitriche / Golf Course anchor not found')
+
 # ── SAVE ─────────────────────────────────────────────────────────────────────
 doc.save(DST)
 print(f'Saved: {DST}')
@@ -307,3 +370,5 @@ print('  - School St (UTEVR3WT.1): Teleaulax gracilis confirmed; Dinophysis sp. 
 print('  - School St (UG79PNJS.1): Freshwater Acanthoceras/Dinobryon; Fontinalis moss detected')
 print('  - Cat Brook: Chrysochromulina dominant; Brasenia schreberi macrophyte detected')
 print('  - Golf Course: Characeae 32.8% native confirmed; Nitellopsis obtusa 1.0% trace flagged')
+print('  - Callitriche sp. (likely C. stagnalis): confirmed Below School St (208 reads), Upper Sawmill (142), Golf Course (32)')
+print('    BLAST species call (obtusangula) is a GenBank reference artifact; genus-level call is solid')
