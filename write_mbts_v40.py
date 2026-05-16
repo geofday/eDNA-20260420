@@ -232,15 +232,16 @@ if not anchored:
 
 # ── 7. GOLF COURSE: CHARACEAE / NITELLOPSIS UPDATE ───────────────────────────
 GOLF_COURSE_STONEWORT = (
-    'Stonewort BLAST update — Golf Course Pond: Native Characeae dominates the 23S signal '
-    '(32.8% of reads) — the highest aquatic macrophyte detection across all MBTS sites. '
-    'A trace of Nitellopsis obtusa (1.0%) is also detected. Nitellopsis obtusa is an '
-    'invasive stonewort from Eurasia that has established in multiple Massachusetts '
-    'waterbodies; at 1.0% read abundance, a self-sustaining population cannot be confirmed '
-    'from eDNA alone, but a physical survey is warranted. The dominant native Characeae '
-    'signal is a positive habitat indicator: Chara/Nitella beds provide spawning and refuge '
-    'habitat and are characteristic of oligotrophic, clear-water conditions. Their abundance '
-    'at Golf Course Pond is consistent with Brook Trout connectivity to the upstream reach.'
+    'Stonewort BLAST update — Lower Golf Course / Sawmill Brook: Native Characeae dominates '
+    'the 23S signal (32.8% of reads) — the highest aquatic macrophyte detection across all '
+    'MBTS sites. This is a stream reach (lower golf course boundary, Sawmill Brook), so the '
+    'Characeae signal reflects benthic stonewort beds or adjacent wetland margin vegetation '
+    'in contact with flowing water. A trace of Nitellopsis obtusa (1.0%) is also detected. '
+    'Nitellopsis obtusa is an invasive stonewort from Eurasia established in multiple '
+    'Massachusetts waterbodies; at 1.0% read abundance a self-sustaining population cannot '
+    'be confirmed from eDNA alone, but a physical survey of the stream margin is warranted. '
+    'The dominant native Characeae signal is a positive habitat indicator consistent with '
+    'oligotrophic, clear-water conditions and Brook Trout connectivity at this reach.'
 )
 
 anchored = insert_after_para(
@@ -250,10 +251,9 @@ anchored = insert_after_para(
     'Body Text'
 )
 if not anchored:
-    # Try alternative anchor from Sawmill Swamp / Golf Course narrative
     anchored = insert_after_para(
         doc,
-        'Golf Course Pond',
+        'lower golf course',
         GOLF_COURSE_STONEWORT,
         'Body Text'
     )
