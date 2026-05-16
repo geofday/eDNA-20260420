@@ -85,15 +85,19 @@ body(doc,
     'contained to Second Pond but ecologically critical given its headwater position feeding Cat Brook.')
 
 # ── 3. pH ─────────────────────────────────────────────────────────────────────
-heading(doc, '3.  pH', size=10, color=(0,70,127))
+heading(doc, '3.  pH  (Vivosun meter, two-point calibration, ±0.2 pH unit)', size=10, color=(0,70,127))
 body(doc,
-    'No field pH measurements are available in the database for any of the 14 MBTS samples. '
-    'This is a significant data gap. Rhopalodia inflata (N-fixing diatom) at multiple main-stem '
-    'sites and Eunotia naegelii dominance throughout indicate nitrogen-limited, soft, low-pH '
-    'conditions typical of New England Brook Trout habitat — but no direct measurement confirms '
-    'this. Priority sites for pH monitoring: Second Pond (eutrophication severity assessment), '
-    'MBTS #3 (Brown Trout stocking context), Golf Course reach (Brook Trout spawning corridor), '
-    'and Sawmill Swamp. A single seasonal Sonde deployment or grab-sample run would close this gap.')
+    'Eight Vivosun field measurements are available across three Sawmill Brook sites. All fall '
+    'within Brook Trout tolerance (6.5–7.5 optimal). Range: 6.15–7.05. Average: 6.66. '
+    'School St: pH 7.05 / 71.6°F (Jul 2025) — pH optimal but temperature at the upper Brook Trout '
+    'stress threshold (~68°F); pH 6.66 / 38.4°F (Nov 2025, co-dated with eDNA) — full tolerance, '
+    'Brook Trout detected at 4.8%. Below Lincoln Pool: pH 6.88 / 55.4°F (Jun 2025, co-collected '
+    'with eDNA) — optimal; Brook Trout detected at 0.6%. pH 6.53 / 37.7°F (Nov 2025) — '
+    'winter baseline, full tolerance. Atwater: pH 6.15 / 62.7°F (Jun 2025, co-collected with '
+    'eDNA) — low end of optimal, borderline for spawning habitat; pH 6.47 / 75.9°F (Jul 2025) '
+    '— acute thermal stress, above short-term BT lethal threshold; pH 6.87 / 36.8°F (Nov 2025). '
+    'No pH data for Second Pond, Cat Brook, Golf Course, Elm Street, MBTS #3, Sawmill Swamp, '
+    'or Fire Station — priority gap sites for future Sonde or grab-sample measurement.')
 
 # ── 4. SENTINEL SPECIES ───────────────────────────────────────────────────────
 heading(doc, '4.  Significant and Sentinel Species', size=10, color=(0,70,127))
